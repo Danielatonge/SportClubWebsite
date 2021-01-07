@@ -199,3 +199,50 @@ Extra (xl) large devices (large desktops, 1200px and up)
 .dropdown a {
   margin-right: .65rem;
 }
+nav.navbar.horizontal-bar {
+  border-top: 1px solid #bfbebe;
+  border-bottom: 1px solid #bfbebe;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.menu-item{
+  border-left: 1px solid #bfbebe;
+  border-right: 1px solid #bfbebe;
+}
+.menu-item a.nav-link{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.menu-item a.nav-link:hover{
+  border-bottom: 4px solid #1D66C1;
+  color: #1D66C1 !important;
+}
+.menu-item:first-child {
+  border-left: 2px solid #bfbebe;
+}
+.menu-item:last-child {
+  border-right: 2px solid #bfbebe;
+}
+
+.menu-item a.nav-link.active {
+  border-bottom: 4px solid #1D66C1;
+  color: #1D66C1 !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #000;
+}
+a.header-icons {
+  color: #1D66C1;
+}
+
+@media (max-width: 576px) { 
+  .no-margin-top-bottom {
+    padding-top: 0;
+  padding-bottom: 0;
+  }
+  .center-xs {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
