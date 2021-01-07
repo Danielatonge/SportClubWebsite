@@ -16,6 +16,7 @@
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
+  padding-top: 20px;
 
   color: #000000;
 }
@@ -59,6 +60,7 @@
   line-height: 24px;
 
   text-align: justify;
+  padding-bottom: 10px;
 
   color: #000000;
 }
@@ -71,6 +73,7 @@
   font-weight: 500;
   font-size: 24px;
   line-height: 28px;
+  padding-top: 30px;
 
   color: #000000;
 }
@@ -108,14 +111,13 @@
 
 .features {
   position: relative;
-  margin-top: 50px;
 
   background: #FFFFFF;
 }
 
 .features .feature-title {
   position: relative;
-  top: 20px;
+  padding-top: 30px;
 
   font-family: Roboto;
   font-style: normal;
@@ -325,9 +327,14 @@ footer .footer-address {
 footer img {
   margin-bottom: 15px;
 }
-.footer-heading a, footer h5 {
-  color: #fff;
-  font-weight: 800;
+.foot-subtitle, .footer-heading a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #FFFFFF;
 }
 footer a {
   color: #A0A0A0;
@@ -356,7 +363,7 @@ footer li {
   padding: 5px 8px;
 }
 .slider{
-
+  padding-top: 20px;
 }
 .carousel-item, .carousel-item img {
   padding: 0;
