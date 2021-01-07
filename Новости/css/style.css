@@ -435,6 +435,13 @@ nav ul.pagination {
 .dropdown .dropdown-item {
   color:  #1D66C1;
 }
+.dropdown .dropdown-item-top {
+  color:  #000;
+  padding-left: 15px;
+}
+.dropdown-width {
+  min-width: 6rem;
+}
 .dropdown i {
   margin-right: .65rem;
   position: relative;
