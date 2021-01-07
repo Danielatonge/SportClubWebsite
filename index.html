@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="script.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<!-- Navigation -->
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-5 ">
+				<a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid"></a>
+			</div>
+
+			<div class="col-xs-9 col-sm-4">
+				<p><small>Подпишись на социальные сети: </small><a href="#"><i class="fab fa-vk"></i></a> <a href="#"><i
+							class="fab fa-instagram"></i></a></p>
+				<div class="input-group mb-3">
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+					</div>
+					<input type="search" class="form-control" placeholder="поиск" aria-label="search"
+						aria-describedby="basic-addon1">
+				</div>
+			</div>
+
+			<div class="col-xs-3 col-sm-2 col-md-3 align-self-center text-right">
+				<button type="button" class="btn btn-outline-dark"><i class="fas fa-globe"></i> РУС</button>
+			</div>
+		</div>
+		<!--End row-->
+	</div>
+
+	<!-- Navigation -->
+	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+		<div class="container">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav m-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="#">Главная</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link active" href="#">Новости</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Спортклуб</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Спорт</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Сборные</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Маркетинг</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Медиа</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+
+	<!--- Image -->
+	<div class="container">
+		<img src="img/video.png" class="img-fluid">
+	</div>
+	<!-- Slider -->
+	<div class="slider">
+		<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="9000" data-pause="hover">
+		  <div class="carousel-inner row w-100 mx-auto" role="listbox">
+			<div class="carousel-item col-md-4 active">
+			  <img src="http://placehold.it/500/e499e4/fff&amp;text=1" class="img-fluid mx-auto d-block" alt="slide 1">
+			</div>
+			<div class="carousel-item col-md-4">
+			  <img src="http://placehold.it/500/e477e4/fff&amp;text=2" class="img-fluid mx-auto d-block" alt="slide 2">
+			</div>
+			<div class="carousel-item col-md-4">
+				<img src="http://placehold.it/500/e477e4/fff&amp;text=3" class="img-fluid mx-auto d-block" alt="slide 3">
+			  </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+			  <div class="arrow">
+				<i class="fa fa-chevron-left fa-lg text-muted"></i>
+			  <span class="sr-only">Previous</span>
+			  </div>
+			</a>
+			<a class="carousel-control-next text-faded" href="#myCarousel" data-slide="next" role="button">
+				<div class="arrow">
+					<i class="fa fa-chevron-right fa-lg text-muted"></i>
+				<span class="sr-only">Next</span>
+				</div>
+			  </a>
+		</div>
+	</div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-12">
+					<img src="img/footer.png" class="img-fluid">
+					<br>
+					<div class="social-media">
+						<a href="#"><i class="fab fa-vk"></i></a> <a href="#"><i class="fab fa-instagram"></i></a>
+						<a href="#"><i class="fab fa-youtube"></i></a> <a href="#"><i class="fab fa-facebook"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+					</div>
+					<ul class="list-unstyled footer-address">
+						<li>Москва, Пр-т Вернадского, д. 78</li>
+						<li>+7 (499) 215-65-65</li>
+						<li>rector@mirea.ru</li>
+					</ul>
+				</div>
+
+				<div class="col-lg-4 col-md-6 col-12">
+					<h5>Сборные</h5>
+					<div class="row">
+						<div class="col-6">
+							<ul class="list-unstyled">
+								<li><a href="#">Киберспортивный клуб</a></li>
+								<li><a href="#">Клуб единоборств</a></li>
+								<li><a href="#">Беговой клуб</a></li>
+							</ul>
+							<ul class="list-unstyled">
+								<li><a href="#">Футбол</a></li>
+								<li><a href="#">Баскетбол мужской</a></li>
+								<li><a href="#">Баскетбол женский</a></li>
+								<li><a href="#">Водное поло</a></li>
+								<li><a href="#">Волейбол мужской</a></li>
+								<li><a href="#">Волейбол женский</a></li>
+							</ul>
+						</div>
+						<div class="col-6">
+							<ul class="list-unstyled">
+								<li><a href="#">Настольный теннис женский</a></li>
+								<li><a href="#">Настольный теннис мужской</a></li>
+								<li><a href="#">Гандбол</a></li>
+								<li><a href="#">Пауэрлифтинг</a></li>
+								<li><a href="#">Черлидинг</a></li>
+								<li><a href="#">Шахматы</a></li>
+								<li><a href="#">Шашки</a></li>
+								<li><a href="#">Плаванье</a></li>
+								<li><a href="#">Бадминтон</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-2 col-sm-6 col-6">
+					<ul class="list-unstyled">
+						<li class="footer-heading"><a href="#">Новости</a></li>
+						<li class="footer-heading"><a href="#">Маркетинг</a></li>
+						<li class="footer-heading"><a href="#">Медиа</a></li>
+					</ul>
+					<h5>Спортклуб</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Миссия</a></li>
+						<li><a href="#">Достижения</a></li>
+						<li><a href="#">История</a></li>
+						<li><a href="#">Семья</a></li>
+					</ul>
+				</div>
+				<div class="col-lg-2 col-sm-6 col-6">
+					<h5>Спорт</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Мероприятия</a></li>
+						<li><a href="#">Секции</a></li>
+					</ul>
+					<h5>Маркетинг</h5>
+					<ul class="list-unstyled">
+						<li><a href="#">Фаншоп</a></li>
+						<li><a href="#">Скидки</a></li>
+						<li><a href="#">Партнеры</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
