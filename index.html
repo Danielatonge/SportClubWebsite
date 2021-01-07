@@ -18,14 +18,14 @@
 
 	<!-- Navigation -->
 	<div class="container">
-		<div class="row"> 
-			<div class="col-xs-12 col-sm-6 col-md-5 ">
+		<div class="row">
+			<div class="col-12 col-sm-6 col-md-5 ">
 				<a class="navbar-brand" href="#"><img src="img/logo.png" class="img-fluid"></a>
 			</div>
 
-			<div class="col-xs-9 col-sm-4">
-				<p><small>Подпишись на социальные сети: </small><a href="#"><i class="fab fa-vk"></i></a> <a href="#"><i
-							class="fab fa-instagram"></i></a></p>
+			<div class="col-9 col-sm-4 no-margin-top-bottom">
+				<p class="align-items-center"><small>Подпишись на социальные сети: </small><a class="header-icons"
+						href="#"><i class="fab fa-vk"></i></a> <a href="#"><i class="fab fa-instagram"></i></a></p>
 				<div class="input-group mb-3">
 					<div class="input-group-prepend">
 						<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
@@ -35,40 +35,47 @@
 				</div>
 			</div>
 
-			<div class="col-xs-3 col-sm-2 col-md-3 align-self-center text-right">
-				<button type="button" class="btn btn-outline-dark"><i class="fas fa-globe"></i> РУС</button>
+			<div class="col-3 col-sm-2 col-md-3 align-self-center text-right no-margin-top-bottom">
+				<div class="dropdown">
+					<button class="btn dropdown-toggle" type="button" id="dropdownMenuButtonTwo"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						<i class="fas fa-globe"></i> РУС
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButtonTwo">
+						<a class="dropdown-item" href="#"><i class="fas fa-globe"></i> ENG</a>
+					</div>
+				</div>
 			</div>
 		</div>
 		<!--End row-->
 	</div>
-
 	<!-- Navigation -->
-	<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+	<nav class="navbar horizontal-bar navbar-expand-md navbar-light sticky-top">
 		<div class="container">
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
 				<span class="navbar-toggler-icon"></span>
 			</button>
 			<div class="collapse navbar-collapse" id="navbarResponsive">
-				<ul class="navbar-nav m-auto">
-					<li class="nav-item">
+				<ul class="navbar-nav nav-fill w-100">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Главная</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link active" href="#">Новости</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Спортклуб</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Спорт</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Сборные</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Маркетинг</a>
 					</li>
-					<li class="nav-item">
+					<li class="nav-item menu-item">
 						<a class="nav-link" href="#">Медиа</a>
 					</li>
 				</ul>
@@ -84,70 +91,76 @@
 	<!-- Slider -->
 	<div class="slider">
 		<div class="carousel slide" id="myCarousel" data-ride="carousel" data-interval="9000" data-pause="hover">
-		  <div class="carousel-inner row w-100 mx-auto" role="listbox">
-			<div class="carousel-item col-md-4 active">
-			  <img src="http://placehold.it/500/e499e4/fff&amp;text=1" class="img-fluid mx-auto d-block" alt="slide 1">
+			<div class="carousel-inner row w-100 mx-auto" role="listbox">
+				<div class="carousel-item col-md-4 active">
+					<img src="http://placehold.it/500/e499e4/fff&amp;text=1" class="img-fluid mx-auto d-block"
+						alt="slide 1">
+				</div>
+				<div class="carousel-item col-md-4">
+					<img src="http://placehold.it/500/e477e4/fff&amp;text=2" class="img-fluid mx-auto d-block"
+						alt="slide 2">
+				</div>
+				<div class="carousel-item col-md-4">
+					<img src="http://placehold.it/500/e477e4/fff&amp;text=3" class="img-fluid mx-auto d-block"
+						alt="slide 3">
+				</div>
 			</div>
-			<div class="carousel-item col-md-4">
-			  <img src="http://placehold.it/500/e477e4/fff&amp;text=2" class="img-fluid mx-auto d-block" alt="slide 2">
-			</div>
-			<div class="carousel-item col-md-4">
-				<img src="http://placehold.it/500/e477e4/fff&amp;text=3" class="img-fluid mx-auto d-block" alt="slide 3">
-			  </div>
-		  </div>
-		  <a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
-			  <div class="arrow">
-				<i class="fa fa-chevron-left fa-lg text-muted"></i>
-			  <span class="sr-only">Previous</span>
-			  </div>
+			<a class="carousel-control-prev" href="#myCarousel" data-slide="prev" role="button">
+				<div class="arrow">
+					<i class="fa fa-chevron-left fa-lg text-muted"></i>
+					<span class="sr-only">Previous</span>
+				</div>
 			</a>
 			<a class="carousel-control-next text-faded" href="#myCarousel" data-slide="next" role="button">
 				<div class="arrow">
 					<i class="fa fa-chevron-right fa-lg text-muted"></i>
-				<span class="sr-only">Next</span>
+					<span class="sr-only">Next</span>
 				</div>
-			  </a>
+			</a>
 		</div>
 	</div>
 
 	<!-- Pagination -->
 	<nav aria-label="News navigation">
 		<ul class="pagination justify-content-center">
-		  <li class="page-item">
-			<a class="page-link" href="#" aria-label="Previous">
-			  <span aria-hidden="true">&laquo;</span>
-			  <span class="sr-only">Previous</span>
-			</a>
-		  </li>
-		  <li class="page-item active"><a class="page-link" href="#">1</a></li>
-		  <li class="page-item"><a class="page-link" href="#">2</a></li>
-		  <li class="page-item"><a class="page-link" href="#">3</a></li>
-		  <li class="page-item">
-			<a class="page-link" href="#" aria-label="Next">
-			  <span aria-hidden="true">&raquo;</span>
-			  <span class="sr-only">Next</span>
-			</a>
-		  </li>
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Previous">
+					<span aria-hidden="true">&laquo;</span>
+					<span class="sr-only">Previous</span>
+				</a>
+			</li>
+			<li class="page-item active"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">3</a></li>
+			<li class="page-item">
+				<a class="page-link" href="#" aria-label="Next">
+					<span aria-hidden="true">&raquo;</span>
+					<span class="sr-only">Next</span>
+				</a>
+			</li>
 		</ul>
-	  </nav>
-	  <!-- Main News -->
-	  <div class="container">
-		  <div class="row">
-			  <div class="col-6"><h4>Новости</h4></div>
-			  <div class="col-6 text-right">
-				  <div class="dropdown">
+	</nav>
+	<!-- Main News -->
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h4>Новости</h4>
+			</div>
+			<div class="col-6 text-right">
+				<div class="dropdown">
 					<a>Сортировать </a>
-					<button class="btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<button class="btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButtonOne"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 						по популярности
 					</button>
-					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-					  <a class="dropdown-item" href="#">по просмотрам</a>
-					  <a class="dropdown-item" href="#">чем-то другим</a>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButtonOne">
+						<a class="dropdown-item" href="#">по просмотрам</a>
+						<a class="dropdown-item" href="#">чем-то другим</a>
 					</div>
-				  </div>
-			  </div>
-		  </div>
-	  </div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
 
@@ -155,7 +168,7 @@
 	<footer>
 		<div class="container">
 			<div class="row">
-				<div class="col-lg-4 col-md-6 col-12">
+				<div class="col-lg-4 col-md-6 col-8 center-xs">
 					<img src="img/footer.png" class="img-fluid">
 					<br>
 					<div class="social-media">
