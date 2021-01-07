@@ -389,7 +389,7 @@ nav ul.pagination {
 }
 
 .pagination a {
-  color: #1D66C1;
+  color: #000;
 }
 .page-item.active .page-link {
   background-color: #1D66C1;
@@ -400,7 +400,7 @@ nav ul.pagination {
   margin: 0 0.5rem;
 }
 .pagination .page-link {
-  border-color: #1D66C1;
+  border-color: #fff;
   border-radius: .3rem;
 }
 
@@ -490,11 +490,15 @@ nav.navbar.horizontal-bar {
 a.header-icons {
   color: #1D66C1;
 }
+.remove-margin {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 
 @media (max-width: 576px) { 
   .no-margin-top-bottom {
     padding-top: 0;
-  padding-bottom: 0;
+    padding-bottom: 0;
   }
   .center-xs {
     text-align: center;
