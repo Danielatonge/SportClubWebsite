@@ -40,3 +40,12 @@ $('.carousel .carousel-item').each(function() {
         next.children(':first-child').clone().appendTo($(this));
     }
 });
+
+
+// <!--modal-->
+// $(document).ready(function() {
+//     $("#MyModal").modal();
+//     $('#myModal').on('shown.bs.modal', function() {
+//        $('#myInput').focus();
+//     });
+//  });

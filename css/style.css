@@ -295,7 +295,7 @@ html, body {
 
 
 footer {
-  background: linear-gradient(rgba(23, 26, 31, 0.95), rgba(23, 26, 31, 0.95)), url("img/footer-background.jpg");
+  background: linear-gradient(rgba(23, 26, 31, 0.95), rgba(23, 26, 31, 0.95)), url("../images/footer-background.jpg");
   /* background-color: #171A1F; */
   background-position: center;
   background-repeat: no-repeat; 
@@ -438,7 +438,7 @@ nav ul.pagination {
   color:  #000;
   padding-left: 15px;
 }
-.dropdown-width {
+.dropdown-width, .dropdown-menu {
   min-width: 6rem;
 }
 .dropdown i {
@@ -599,17 +599,23 @@ a.header-icons {
   background-repeat: no-repeat;
   margin-left: 1rem;
 }
-
-.bg-overlay {
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  top: 0;
-  background: rgba(0, 0, 0, 0.5);
+.sport-hashtag {
+  color: #1D66C1;
+  font-style:normal;
+}
+.modal-header {
+  border-bottom: #fff;
+}
+.modal-footer {
+  border-top: #fff;
+}
+.sport-photo .col-6.col-md-4, 
+.sport-video .col-6,
+.section-main .col-12.col-md-6 {
+  padding:8px;
 }
 
-.bg-overlay2 {
-  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(14, 32, 58, 0.9) 100%);
-  border-radius: 5px;
+.dropdown-item:active {
+  color: #6c757d;
+  background-color: #fff;
 }
