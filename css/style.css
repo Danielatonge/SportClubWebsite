@@ -619,3 +619,124 @@ a.header-icons {
   color: #6c757d;
   background-color: #fff;
 }
+
+.gallery-box {
+  position: relative;
+  width: 260px;
+  height: 210px;
+
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+
+.gallery-box-2 {
+  position: relative;
+  width: 360px;
+  height: 239px;
+
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+
+.video-box {
+  position: relative;
+  width: 560px;
+  height: 326px;
+
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+
+.video-box-2 {
+  position: relative;
+  width: 360px;
+  height: 213px;
+
+  background: #C4C4C4;
+  border-radius: 5px;
+}
+
+.gallery-button {
+  position: relative;
+  min-width: 100%;
+  min-height: auto;
+  padding-top: 1.2rem;
+
+  background: #FFFFFF;
+  opacity: 0.99;
+
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.gallery-button p {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.gallery-box-position {
+  position: absolute;
+  bottom: 20px;
+  left: 25px;
+  /* transform: translate(-50%, -50%); */
+}
+
+.gallery-box-position p {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.gallery-box-position i {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.gallery-video-title {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+
+  padding-top: 30px;
+
+  color: #000000;
+}
+
+.view-count {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #A0A0A0;
+}
