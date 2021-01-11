@@ -582,6 +582,14 @@ a.header-icons {
   color: #1D66C1;
 }
 
+.sport-heading-two {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
 .sport-text {
   font-weight: 400;
 
@@ -593,11 +601,12 @@ a.header-icons {
   color: #1D66C1;
 }
 .trainer-img {
-  background-image: url("../images/Rectangle 63.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 .sport-hashtag {
   color: #1D66C1;
@@ -739,4 +748,7 @@ a.header-icons {
   line-height: 19px;
 
   color: #A0A0A0;
+}
+.sport-text.reduce-margin p {
+  margin-bottom: 0;
 }
