@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  color:#222222;
+}
+
+
 .body-colour {
   background: #f6f6f8;
   padding-bottom: 50px;
@@ -208,10 +216,12 @@
   color: #FFFFFF;
 }
 
+
 .img-gradient{
   position: relative;
   display:inline-block;
   height: 100%;
+  border-radius: .25rem;
 }
 
 .img-gradient:after {
@@ -227,18 +237,13 @@
   background: -ms-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%,rgba(0, 0, 0, 0.8) 100%); /* IE10+ */
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%,rgba(0, 0, 0, 0.8) 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002f4b', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+  border-radius: .25rem;
 }
 
 .img-gradient img{
   display:block;
   height: 100%;
-}
-
-html, body {
-  height: 100%;
-  width: 100%;
-  font-family: 'Roboto', sans-serif;
-  color:#222222;
+  border-radius: .25rem;
 }
 
 /*********************************************************************/
@@ -582,6 +587,14 @@ a.header-icons {
   color: #1D66C1;
 }
 
+.sport-heading-two {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  color: #000;
+}
+
 .sport-text {
   font-weight: 400;
 
@@ -593,11 +606,12 @@ a.header-icons {
   color: #1D66C1;
 }
 .trainer-img {
-  background-image: url("../images/Rectangle 63.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  margin-left: 1rem;
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
 }
 .sport-hashtag {
   color: #1D66C1;
@@ -611,7 +625,7 @@ a.header-icons {
 }
 .sport-photo .col-6.col-md-4, 
 .sport-video .col-6,
-.section-main .col-12.col-md-6 {
+.section-main .col-12.col-md-6, .album {
   padding:8px;
 }
 
@@ -620,161 +634,123 @@ a.header-icons {
   background-color: #fff;
 }
 
+.gallery-box {
+  position: relative;
+  width: 100%;
+  height: 210px;
 
-/* Carousel */
-
-@media (min-width: 768px) and (max-width: 991px) {
-  /* Show 4th slide on md  if col-md-4*/
-    .carousel-inner .active.col-md-4.carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -33.3333%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-
+  background: #C4C4C4;
+  border-radius: 5px;
 }
 
-@media (min-width: 576px) and (max-width: 768px) {
-  /* Show 3rd slide on sm  if col-sm-6*/
-    .carousel-inner .active.col-sm-6.carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -50%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
+.gallery-box-2 {
+  position: relative;
+  width: 100%;
+  height: 239px;
 
-}
-@media (min-width: 576px) {
-	
-    .carousel-item {
-        margin-right: 0;
-    }
-
-    /* show 2 items */
-    .carousel-inner .active + .carousel-item {
-        display: block;
-    }
-    
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left),
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item {
-        transition: none;
-    }
-
-    .carousel-inner .carousel-item-next {
-      position: relative;
-      transform: translate3d(0, 0, 0);
-    }
-    
-    /* left or forward direction */
-    .active.carousel-item-left + .carousel-item-next.carousel-item-left,
-    .carousel-item-next.carousel-item-left + .carousel-item,
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    } 
-    
-    /* farthest right hidden item must be abso position for animations */
-    .carousel-inner .carousel-item-prev.carousel-item-right {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-    
-    /* right or prev direction */
-    .active.carousel-item-right + .carousel-item-prev.carousel-item-right,
-    .carousel-item-prev.carousel-item-right + .carousel-item,
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
-
+  background: #C4C4C4;
+  border-radius: 5px;
 }
 
-/*MD*/
-@media (min-width: 768px) {
+.video-box {
+  position: relative;
+  width: 100%;
+  height: 326px;
 
-    /* show 3rd of 3 item slide */
-  .carousel-inner .active + .carousel-item + .carousel-item {
-        display: block;
-    }
- 
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item {
-        transition: none;
-    }
-  
-    
-    .carousel-inner .carousel-item-next {
-      position: relative;
-      transform: translate3d(0, 0, 0);
-    }
-    
-    
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    
-    /* right or prev direction */
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
-
+  background: #C4C4C4;
+  border-radius: 5px;
 }
 
+.video-box-2 {
+  position: relative;
+  width: 100%;
+  height: 213px;
 
-/*LG */
-@media (min-width: 991px) {
+  background: #C4C4C4;
+  border-radius: 5px;
+}
 
-    /* show 4th item */
-    .carousel-inner .active + .carousel-item + .carousel-item + .carousel-item {
-        display: block;
-    }
-    
-    .carousel-inner .carousel-item.active:not(.carousel-item-right):not(.carousel-item-left) + .carousel-item + .carousel-item + .carousel-item {
-        transition: none;
-    }
-    
-    /* Show 5th slide on lg if col-lg-3 */
-    .carousel-inner .active.col-lg-3.carousel-item + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: absolute;
-        top: 0;
-        right: -25%;  /*change this with javascript in the future*/
-        z-index: -1;
-        display: block;
-        visibility: visible;
-    }
-    
-    /* left or forward direction */
-    .carousel-item-next.carousel-item-left + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(-100%, 0, 0);
-        visibility: visible;
-    }
-    
-    /* right or prev direction //t - previous slide direction last item animation fix */
-    .carousel-item-prev.carousel-item-right + .carousel-item + .carousel-item + .carousel-item + .carousel-item {
-        position: relative;
-        transform: translate3d(100%, 0, 0);
-        visibility: visible;
-        display: block;
-        visibility: visible;
-    }
+.gallery-button {
+  position: relative;
+  min-width: 100%;
+  min-height: auto;
+  padding-top: 1.2rem;
 
+  background: #FFFFFF;
+  opacity: 0.99;
+
+  border: 1px solid #F0F0F0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.gallery-button p {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+
+  text-align: center;
+
+  color: #000000;
+}
+
+[class="album"] {
+  padding: 0.5rem;
+}
+
+.gallery-box-position p {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.gallery-box-position i {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+
+  color: #FFFFFF;
+}
+
+.gallery-video-title {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+
+  padding-top: 30px;
+
+  color: #000000;
+}
+
+.view-count {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #A0A0A0;
+}
+.sport-text.reduce-margin p {
+  margin-bottom: 0;
 }
