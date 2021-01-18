@@ -82,7 +82,7 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.2rem;
   line-height: 28px;
   padding-top: 30px;
 
@@ -149,7 +149,7 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1rem;
   line-height: 19px;
 
   color: #000000;
@@ -346,7 +346,7 @@ footer li {
 }
 
 [class*="col-"] {
-    padding: 1rem;
+    padding: 0.5rem;
 }
 
 .arrow {
@@ -625,7 +625,7 @@ a.header-icons {
 }
 .sport-photo .col-6.col-md-4, 
 .sport-video .col-6,
-.section-main .col-12.col-md-6, .album {
+.section-main .col-12.col-md-6 {
   padding:8px;
 }
 
@@ -755,15 +755,28 @@ a.header-icons {
   margin-bottom: 0;
 }
 
+.souvenir-image {
+  position: relative;
+  background-color: #FFF;
+  text-align: center;
+
+  padding: 1rem;
+  width: 100%;
+  height: auto;
+
+  border-radius: 5px;
+}
+
 .souvernir-card p {
   position: relative;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.1rem;
   line-height: 23px;
-  text-align: center;
+  
+  margin-top: 1rem;
 
   color: #000000;
 }
@@ -852,7 +865,7 @@ nav.navbar.horizontal-bar-2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.2rem;
 
   padding-top: 1rem;
   margin-bottom: 0;
@@ -863,4 +876,12 @@ nav.navbar.horizontal-bar-2 {
 .marketing-no-padding .row .col-12 .card {
   padding-top: 0;
   padding-bottom: 0;
+}
+
+.album-row {
+  padding-left: 1.1rem;
+}
+
+.media-sort{
+  padding-top: 30px;
 }
