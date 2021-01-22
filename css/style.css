@@ -725,8 +725,8 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 2rem;
+  line-height: normal;
 
   padding-top: 30px;
 
