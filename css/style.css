@@ -9,7 +9,7 @@ html, body {
 
 .body-colour {
   background: #f6f6f8;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 
 .body-width {
@@ -389,7 +389,7 @@ Extra (xl) large devices (large desktops, 1200px and up)
 
 
 nav ul.pagination {
-  margin: 0.4rem 0;
+  margin: 0;
 }
 
 .pagination a {
@@ -458,6 +458,11 @@ nav ul.pagination {
 
   color: #A0A0A0;
 }
+
+.button-xs {
+  display: none;
+}
+
 nav.navbar.horizontal-bar {
   background-color: #1D66C1;
   color: #fff;
@@ -882,14 +887,16 @@ nav.navbar.horizontal-bar-2 {
   display: inline-block;
   font-weight: 400;
   text-align: center;
+  height: 48px;
   white-space: nowrap;
   vertical-align: middle;
   user-select: none;
-  border: 1px solid #F0F0F0;
+  border: 2px solid #F0F0F0;
   padding: .375rem .75rem;
   font-size: 1rem;
   line-height: 1.5;
-  border-radius: .25rem;
+  border-radius: 5px;
+  box-sizing: border-box;
   transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
@@ -919,11 +926,18 @@ nav.navbar.horizontal-bar-2 {
   .block-icon {
     display: none;
   }
-  .xs-nav {
-    display: inline;
+  .button-xs {
+    display: inline-block;
+    
   }
-  .container.xs-nav {
-    display: inline;
+  .navbar-toggler {
+    font-size:0.7rem;
+    line-height: 0;
+    border-radius: 5px;
+    padding: .25rem 0.75rem;
+  }
+  .xs-nav {
+    display: inline-block;
   }
   nav.navbar.horizontal-bar {
     border: none;
@@ -932,23 +946,30 @@ nav.navbar.horizontal-bar-2 {
     background-color: #fff;
   }
   .padding-xs {
-    padding: 1rem;
+    padding: 8px;
+    padding-top: 20px;
+    padding-left: 16px;
+  }
+  img.img-fluid-xs {
+    width: 50%;
+    height: auto;
+  }
+  .padding-right-xs {
+    padding-right: 23px;
   }
   .justify-xs {
     text-align: justify;
   }
+  .bottom-right {
+    vertical-align: middle;
+  }
+  .remove-xs {
+    display: none;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
-  .block-icon {
-    display: inline-block;
-  }
-  .xs-nav {
-    display: inline;
-  }
-  .container.xs-nav {
-    display: inline;
-  }
+
   nav.navbar.horizontal-bar {
     border: none;
     padding-top: 0;
@@ -956,7 +977,32 @@ nav.navbar.horizontal-bar-2 {
     background-color: #fff;
   }
   .padding-xs {
-    padding: 0;
+    padding-top: 20px;
+    padding-left: 20px;
+  }
+  .block-search::before {
+    content: none;
+  }
+  .block-icon {
+    display: none;
+  }
+  .button-xs {
+    display: inline-block;
+  }
+  .navbar-toggler {
+    font-size:0.7rem;
+    line-height: 0;
+    border-radius: 5px;
+    padding: .25rem 0.75rem;
+  }
+  nav.navbar.horizontal-bar {
+    border: none;
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #fff;
+  }
+  .bottom-right {
+    vertical-align: top;
   }
 }
 
