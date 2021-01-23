@@ -67,8 +67,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 
   text-align: justify;
   padding-bottom: 10px;
@@ -82,8 +82,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.2rem;
-  line-height: 28px;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   padding-top: 30px;
 
   color: #000000;
@@ -439,6 +439,9 @@ nav ul.pagination {
 .dropdown .dropdown-item {
   color:  #1D66C1;
 }
+.dropdown .dropdown-item.non-active {
+  color:  #000;
+}
 .dropdown .dropdown-item-top {
   color:  #000;
   padding-left: 15px;
@@ -665,12 +668,15 @@ a.header-icons {
 
 .gallery-button {
   position: relative;
-  min-width: 100%;
+  width: 100%;
   min-height: auto;
   padding-top: 1.2rem;
 
   background: #FFFFFF;
   opacity: 0.99;
+
+  margin-left: 8px;
+  margin-right: 8px;
 
   border: 1px solid #F0F0F0;
   box-sizing: border-box;
@@ -812,8 +818,8 @@ nav.navbar.horizontal-bar-2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 24px;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
 
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -827,7 +833,7 @@ nav.navbar.horizontal-bar-2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.25rem;
   line-height: 24px;
 
   text-align: justify;
@@ -964,4 +970,16 @@ nav.navbar.horizontal-bar-2 {
   font-size: 2rem;
   font-weight: 700;
   line-height: normal;
+}
+
+.media-video-title {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2rem;
+
+  color: #000000;
 }
