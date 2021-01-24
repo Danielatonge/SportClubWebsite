@@ -672,6 +672,8 @@ a.header-icons {
   min-height: auto;
   padding-top: 1.2rem;
 
+  top: 0.5rem;
+
   background: #FFFFFF;
   opacity: 0.99;
 
@@ -873,10 +875,6 @@ nav.navbar.horizontal-bar-2 {
 .marketing-no-padding .row .col-12 .card {
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.album-row {
-  padding-left: 1.1rem;
 }
 
 .media-sort{
