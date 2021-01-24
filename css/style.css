@@ -9,7 +9,7 @@ html, body {
 
 .body-colour {
   background: #f6f6f8;
-  padding-bottom: 50px;
+  padding-bottom: 3.125rem;
 }
 
 .body-width {
@@ -23,9 +23,9 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 47px;
-  padding-top: 20px;
+  font-size: 2.5rem;
+  line-height: 2.938rem;
+  padding-top: 1.25rem;
 
   color: #000000;
 }
@@ -36,8 +36,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 14px;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
 
   color: #1D66C1;
 }
@@ -45,8 +45,8 @@ html, body {
   color: #A0A0A0;
 }
 .body-width .date-margin {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .body-width .date {
@@ -55,8 +55,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   color: #A0A0A0;
 }
@@ -84,7 +84,7 @@ html, body {
   font-weight: 500;
   font-size: 1.25rem;
   line-height: 1.75rem;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 
   color: #000000;
 }
@@ -94,7 +94,7 @@ html, body {
 
   border-radius: 5px;
   padding: 10px 10px 0 15px;
-  margin-top: 50px;
+  margin-top: 3.125rem;
 
   background: #FFFFFF;
 }
@@ -105,8 +105,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   color: #1D66C1;
 }
@@ -128,13 +128,13 @@ html, body {
 
 .features .feature-title {
   position: relative;
-  padding-top: 30px;
+  padding-top: 1.875rem;
 
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 
   color: #000000;
 }
@@ -149,8 +149,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 1rem;
-  line-height: 19px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 
   color: #000000;
 
@@ -163,7 +163,7 @@ html, body {
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 0.75rem;
 
   color: #A0A0A0;
 }
@@ -174,8 +174,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 12px;
+  font-size: 0.688rem;
+  line-height: 0.75rem;
 
   color: #1D66C1;
 }
@@ -186,8 +186,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 
   color: #FFFFFF;
 }
@@ -199,7 +199,7 @@ html, body {
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
-  line-height: 12px;
+  line-height: 0.75rem;
 
   color: #FFFFFF;
 }
@@ -210,8 +210,8 @@ html, body {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 11px;
-  line-height: 12px;
+  font-size: 0.688rem;
+  line-height: 0.75rem;
 
   color: #FFFFFF;
 }
@@ -322,8 +322,8 @@ footer img {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   color: #FFFFFF;
 }
@@ -336,7 +336,7 @@ footer li {
 }
 .social-media {
   margin-top: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
 }
 .social-media a {
   margin-right: 5px;
@@ -356,7 +356,7 @@ footer li {
   background-color: #fff;
 }
 .slider{
-  padding-top: 20px;
+  padding-top: 1.25rem;
 }
 .carousel-item{
   padding-left: 10px;
@@ -431,8 +431,8 @@ nav ul.pagination {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 28px;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
 
   color: #000000;
 }
@@ -456,8 +456,8 @@ nav ul.pagination {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   color: #A0A0A0;
 }
@@ -567,7 +567,7 @@ a.header-icons {
   border-color: #1D66C1;
 }
 .row.first-row {
-  padding-left: 20px;
+  padding-left: 1.25rem;
   background-color: #fff;
   border-top: 1px solid rgba(0,0,0,.125);
   border-left: 1px solid rgba(0,0,0,.125);
@@ -578,7 +578,7 @@ a.header-icons {
 .sport-heading {
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   margin-bottom: 15px;
   color: #1D66C1;
 }
@@ -586,7 +586,7 @@ a.header-icons {
 .sport-heading-two {
   font-size: 1.3rem;
   font-weight: 700;
-  margin-top: 30px;
+  margin-top: 1.875rem;
   margin-bottom: 15px;
   color: #000;
 }
@@ -691,8 +691,8 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   text-align: center;
 
@@ -709,8 +709,8 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 16px;
-  line-height: 20px;
+  font-size: 1rem;
+  line-height: 1.25rem;
 
   color: #FFFFFF;
 }
@@ -721,8 +721,8 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
 
   color: #FFFFFF;
 }
@@ -736,7 +736,7 @@ a.header-icons {
   font-size: 2rem;
   line-height: normal;
 
-  padding-top: 30px;
+  padding-top: 1.875rem;
 
   color: #000000;
 }
@@ -747,8 +747,8 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
   color: #A0A0A0;
 }
@@ -775,7 +775,7 @@ a.header-icons {
   font-style: normal;
   font-weight: 500;
   font-size: 1.1rem;
-  line-height: 23px;
+  line-height: 1.438rem;
   
   margin-top: 1rem;
 
@@ -836,7 +836,7 @@ nav.navbar.horizontal-bar-2 {
   font-style: normal;
   font-weight: 500;
   font-size: 1.25rem;
-  line-height: 24px;
+  line-height: 1.5rem;
 
   text-align: justify;
   color: #1D66C1;
@@ -848,8 +848,8 @@ nav.navbar.horizontal-bar-2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
 
   text-align: justify;
   padding-top: 2rem;
@@ -878,7 +878,7 @@ nav.navbar.horizontal-bar-2 {
 }
 
 .media-sort{
-  padding-top: 30px;
+  padding-top: 1.875rem;
 }
 
 .btn-nav {
@@ -983,4 +983,16 @@ nav.navbar.horizontal-bar-2 {
   padding-bottom: 2.5rem;
 
   color: #000000;
+}
+
+.media-card-overlay-title {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.188rem;
+
+  color: #FFFFFF;
 }
