@@ -785,37 +785,30 @@ a.header-icons {
   color: #000000;
 }
 nav.navbar.horizontal-bar-2 {
-  background: linear-gradient(90deg, #1488CC 0%, #2B32B2 100%);
+  background: #FFF;
   padding-top: 0;
   padding-bottom: 0;
 }
-.menu-item-2{
-  
-}
-.menu-item-2 a.nav-link {
+.menu-item a.nav-link {
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
-.menu-item-2 a.nav-link:hover{
-  border-bottom: 4px solid #fff;
-  color: #FFF !important;
-}
-/* .menu-item-2:first-child {
-  border-left: 2px solid #bfbebe;
-}
-.menu-item-2:last-child {
-  border-right: 2px solid #bfbebe;
-} */
-
-.menu-item-2 a.nav-link.second-link.active {
-  border-bottom: 4px solid #fff;
-  color: #FFF !important;
-}
-
 .navbar-nav .nav-link.second-link {
-  color: #FFF;
-  opacity: 0.7;
+  color: #032F5E;
+  opacity: 0.6;
 }
+.menu-item a.nav-link.second-link:hover{
+  border-bottom: 4px solid #032F5E;
+  color:#032F5E !important;
+  opacity: unset;
+}
+.menu-item a.nav-link.second-link.active {
+  border-bottom: 4px solid #032F5E;
+  color: #032F5E !important;
+  opacity: unset;
+}
+
+
 
 .marketing-title {
   position: relative;
@@ -1040,4 +1033,9 @@ nav.navbar.horizontal-bar-2 {
   line-height: 1.188rem;
 
   color: #FFFFFF;
+}
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
 }
