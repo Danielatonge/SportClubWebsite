@@ -19,13 +19,14 @@
 
 	<!-- Navigation -->
 	<div class="header justify-xs">
-		<div class="container xs-nav equalify">
-			<div class="row pt-0 xs-nav ">
-				<div class="col-12 col-md-5 col-lg-5 pt-0 xs-nav">
-					<div class="row pt-0 xs-nav">
-						<div class="col-12 col-md-4 col-sm-5 col-lg-3 pt-0 pr-0 xs-nav">
-							<a class="navbar-brand padding-xs" href="#"><img src="../images/logo-icon.png"
-									class="img-fluid"></a>
+		<div class="container equalify">
+			<div class="row pt-0 ">
+				<div class="col-5 col-sm-5 col-md-5 col-lg-5 pt-0">
+					<div class="row pt-0">
+						<div class="col-12 col-md-4 col-sm-5 col-lg-3 pt-0 pr-0">
+							<a class="navbar-brand padding-xs" href="#" >
+							<img src="../images/logo-icon.png"
+									class="img-fluid img-fluid-xs"></a>
 						</div>
 						<div class="col-md-8 col-sm-5 col-lg-8 pl-0 block-icon">
 							<div class="bottom-nav">
@@ -36,38 +37,49 @@
 					</div>
 				</div>
 
-				<div class="col-12 col-md-7 block-search no-margin-top-bottom text-right xs-nav">
+				<div class="col-7 col-sm-7 col-md-7 no-margin-top-bottom block-search text-right">
 					<div class="dropdown bottom-right">
-						<button class="btn-nav mr-2" type="button">
-							<i class="fa fa-search"></i>
-						</button>
-						<button class="btn-nav dropdown-toggle" type="button" id="dropdownMenuButtonTwo"
-							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-							<i class="fas fa-globe"></i> РУС
-						</button>
+						<div class="row pt-0">
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 pt-0 xs-nav remove-xs">
+								<p class="remove-margin">
+									<small>Подпишись на социальные сети: </small>
+									<a class="header-icons" href="#"><i class="fab fa-vk"></i></a> 
+									<a href="#"><i class="fab fa-instagram"></i></a>
+								</p>
+							</div>
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 mt-2 pt-0 padding-right-xs">
+								<button class="btn-nav mr-2" style="width:48px;" type="button">
+									<i class="fa fa-search"></i>
+								</button>
+								<button class="btn-nav dropdown-toggle" type="button" id="dropdownMenuButtonTwo"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<i class="fas fa-globe"></i> РУС
+								</button>
+								<button class="navbar-toggler paint-blue button-xs ml-2" style="height: 48px; width: 48px;" type="button" data-toggle="collapse" data-target="#navbarResponsiveNew">
+									<span class="fa fa-bars" style="color: #fff;"></span>
+								</button>
+							</div>
+						</div>
 						<div class="dropdown-menu dropdown-width" aria-labelledby="dropdownMenuButtonTwo">
 							<a class="dropdown-item-top" href="#"><i class="fas fa-globe"></i> ENG</a>
 						</div>
-					</div>
+						
+					</div>	
 				</div>
 			</div>
-			<!--End row-->
 		</div>
 
 
 		<!-- Navigation -->
-		<nav class="navbar horizontal-bar navbar-expand-md navbar-dark xs-nav">
-			<div class="container xs-nav">
-				<button class="navbar-toggler paint-blue" type="button" data-toggle="collapse" data-target="#navbarResponsive">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarResponsive">
+		<nav class="navbar horizontal-bar navbar-expand-md navbar-dark">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="navbarResponsiveNew">
 					<ul class="navbar-nav nav-fill paint-blue w-100">
 						<li class="nav-item menu-item">
 							<a class="nav-link" href="#">Главная</a>
 						</li>
 						<li class="nav-item menu-item">
-							<a class="nav-link" href="#">Новости</a>
+							<a class="nav-link active" href="#">Новости</a>
 						</li>
 						<li class="nav-item menu-item">
 							<a class="nav-link" href="#">Спортклуб</a>
@@ -85,8 +97,8 @@
 							<div class="dropdown">
                                 <a class="nav-link dropdown-toggle active" type="button" id="myDropdownOne" href="#" data-toggle="dropdown" aria-expanded="false">Медиа</a>
                                 <ul class="dropdown-menu" aria-labelledby="myDropdownOne">
-                                    <li><a class="dropdown-item non-active" href="#">Фотографии</a></li>
-                                    <li><a class="dropdown-item" href="#">Видео</a></li>
+                                    <li><a class="dropdown-item" href="#">Фотографии</a></li>
+                                    <li><a class="dropdown-item non-active" href="#">Видео</a></li>
                                 </ul>
                             </div>
 						</li>

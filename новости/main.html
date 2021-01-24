@@ -67,7 +67,6 @@
 					</div>	
 				</div>
 			</div>
-			<!--End row-->
 		</div>
 
 
@@ -95,7 +94,13 @@
 							<a class="nav-link" href="#">Маркетинг</a>
 						</li>
 						<li class="nav-item menu-item">
-							<a class="nav-link" href="#">Медиа</a>
+							<div class="dropdown">
+                                <a class="nav-link dropdown-toggle active" type="button" id="myDropdownOne" href="#" data-toggle="dropdown" aria-expanded="false">Медиа</a>
+                                <ul class="dropdown-menu" aria-labelledby="myDropdownOne">
+                                    <li><a class="dropdown-item" href="#">Фотографии</a></li>
+                                    <li><a class="dropdown-item non-active" href="#">Видео</a></li>
+                                </ul>
+                            </div>
 						</li>
 					</ul>
 				</div>
@@ -112,9 +117,9 @@
 					<div class="col-6" style="margin-left: -8px;">
 						<h4 class="title-text">Новости</h4>
 					</div>
-					<div class="col-6 text-right" >
+					<div class="col-6 text-right">
 						<div class="dropdown">
-							<i>Сортировать </i>
+							<i class="d-none d-sm-inline">Сортировать </i>
 							<button class="btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton"
 								data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								по популярности
