@@ -562,6 +562,8 @@ a.header-icons {
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
 
 .btn-primary {
