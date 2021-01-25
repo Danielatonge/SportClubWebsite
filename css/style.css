@@ -1038,3 +1038,54 @@ nav.navbar.horizontal-bar-2 {
   margin-left: 0;
   margin-right: 0;
 }
+
+.background-img-1 {
+  background-image: url("../images/Group 431.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+.background-img-2 {
+  background-image: url("../images/Group 432.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.background-img-3 {
+  background-image: url("../images/Group 430.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.background-img-4 {
+  background-image: url("../images/Group 433.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.background-img-5 {
+  background-image: url("../images/Group 434.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
+
+.background-img-6 {
+  background-image: url("../images/Group 435.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
+}
