@@ -782,7 +782,7 @@ a.header-icons {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   line-height: 1.438rem;
   
   margin-top: 1rem;
@@ -826,7 +826,7 @@ nav.navbar.horizontal-bar-2 {
 
   padding-top: 2rem;
   padding-bottom: 2rem;
-
+  margin: 0;
   text-align: justify;
   color: #1D66C1;
 }
@@ -1058,4 +1058,15 @@ nav.navbar.horizontal-bar-2 {
 
 .card.mbottom {
   margin-bottom: 30px;
+}
+
+.skidka-card-title {
+  position: relative;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.188rem;
+
+  color: #000000;
 }
