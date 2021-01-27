@@ -15,6 +15,7 @@ html, body {
 .body-width {
   width: 85%;
   margin: 2.5rem auto 0 auto;
+  /* padding: ; */
 }
 
 .body-width h1 {
@@ -118,6 +119,9 @@ html, body {
 
 .icons a {
   margin-right: 0.6rem;
+}
+.icons {
+  font-size: 1.25rem;
 }
 
 .features {
@@ -421,7 +425,7 @@ nav ul.pagination {
 .btn-sort {
   color:  #1D66C1;
   background-color: #fff;
-  border-color: #6c757d;
+  border-color: #f0f0f0;
 }
 .title-text {
   position: relative;
@@ -470,6 +474,11 @@ nav.navbar.horizontal-bar {
   padding-top: 0;
   padding-bottom: 0;
 }
+@media (min-width: 768px) { 
+  .paint-blue {
+    height: 3.75rem;
+  }
+ }
 .paint-blue {
   background-color: #1D66C1;
 }
@@ -1045,4 +1054,8 @@ nav.navbar.horizontal-bar-2 {
 }
 #new-card .card {
   min-width: 100%;
+}
+
+.card.mbottom {
+  margin-bottom: 30px;
 }
