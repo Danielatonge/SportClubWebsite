@@ -94,7 +94,7 @@ html, body {
   position: relative;
 
   border-radius: 5px;
-  padding: 10px 10px 0 15px;
+  padding: 5px 10px 0 15px;
   margin-top: 3.125rem;
 
   background: #FFFFFF;
@@ -102,7 +102,7 @@ html, body {
 
 .socials p {
   position: relative;
-
+  margin-bottom: 0;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -115,13 +115,6 @@ html, body {
 .socials div.col-6.no-padding {
   padding-top: 0;
   padding-bottom: 0;
-}
-
-.icons a {
-  margin-right: 0.6rem;
-}
-.icons {
-  font-size: 1.25rem;
 }
 
 .features {
@@ -1069,4 +1062,30 @@ nav.navbar.horizontal-bar-2 {
   line-height: 1.188rem;
 
   color: #000000;
+}
+
+.icons a {
+  margin-right: 0.6rem;
+}
+.icons {
+  font-size: 1.25rem;
+  padding-bottom: 10px;
+}
+.fa-vk {
+  color: #4c75a3;
+}
+.fa-instagram {
+  color: #E1306C;
+}
+.fa-telegram-plane {
+  color: #0088cc;
+}
+.fa-whatsapp {
+  color: #25D366;
+}
+.fa-facebook-square {
+  color: #4267B2;
+}
+.card-body.souvernir-card .row.mt-auto {
+  padding-top: 1rem;
 }
