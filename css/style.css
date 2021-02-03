@@ -864,14 +864,22 @@ nav.navbar.horizontal-bar-2 {
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
-  font-size: 1.2rem;
-
-  padding-top: 1rem;
-  margin-bottom: 0;
-
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  
   color: #1D66C1;
 }
+.marketing-company-status {
+  position: relative;
+  
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.188rem;
 
+  color: #000000;
+}
 .marketing-no-padding .row .col-12 .card {
   padding-top: 0;
   padding-bottom: 0;
@@ -1047,6 +1055,18 @@ nav.navbar.horizontal-bar-2 {
   padding-bottom: 2.5rem;
 
   color: #000000;
+}
+
+.media-hashtag {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.188rem;
+
+  color: #1D66C1;
 }
 
 .media-card-overlay-title {
