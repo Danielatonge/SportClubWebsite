@@ -1063,6 +1063,12 @@ nav.navbar.horizontal-bar-2 {
     min-width: 100%;
     text-align: center !important;
   }
+  .media-card-overlay-title {
+    font-size: .65rem;
+    line-height: 1.188rem;
+  
+    color: #FFFFFF;
+  }
 }
 #new-card .card {
   min-width: 100%;
