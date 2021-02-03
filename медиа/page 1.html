@@ -40,11 +40,11 @@
 					<div class="dropdown bottom-right">
 						<div class="row">
 							<div class="col-12 col-md-12 col-sm-12 col-lg-12 pl-0 pr-0 xs-nav remove-xs">
-								<!-- <p class="remove-margin">
+								<p class="remove-margin">
 									<small>Подпишись на социальные сети: </small>
 									<a class="header-icons" href="#"><i class="fab fa-vk"></i></a> 
 									<a href="#"><i class="fab fa-instagram"></i></a>
-								</p> -->
+								</p>
 							</div>
 							<div class="col-12 col-md-12 col-sm-12 col-lg-12 mt-2 p-md-0 padding-right-xs">
 								<button class="btn-nav mr-2" style="width:3rem;" type="button">
@@ -134,9 +134,24 @@
     <!-- Albums -->
 	<div class="body-colour">
 		<div class="container">
-            <div class="col-12">
-                <p class="sub-title">Альбомы</p> 
-            </div> 
+            <div class="row mr-0 ml-0">
+				<div class="col-6">
+					<p class="sub-title">Фотоальбомы</p>
+				</div>
+				<div class="col-6 text-right media-sort">
+					<div class="dropdown">
+						<i class="d-none d-sm-inline">Сортировать </i>
+						<button class="btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton"
+							data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							по популярности
+						</button>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+							<a class="dropdown-item" href="#">по просмотрам</a>
+							<a class="dropdown-item" href="#">чем-то другим</a>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="row mr-0 ml-0">
                 <div class="col-12 col-md-3">
 					<div class="outer-navigation list-group text-center text-blue">
@@ -161,12 +176,11 @@
                         <div class="col-lg-3 col-md-4 col-6 ">
                             <a href="">
                                 <div class="img-gradient">
-                                    <img class="card-img-top" src="../images/Rectangle 79.png">
+                                    <img class="card-img-top" src="../images/image-box.png">
                                 </div>
                                 <div class="card-img-overlay d-flex flex-column">
-                                    <h5 class="media-card-overlay-title mt-auto">Групповой этап
-                                        Кубка ректора по футболу 2019</h5>
-                                    <i class="card-overlay-hashtag">16 октября 2020</i>
+                                    <h5 class="media-card-overlay-title mt-auto"></h5>
+                                    <i class="card-overlay-hashtag"></i>
                                 </div>
                             </a>
                         </div>
@@ -243,26 +257,9 @@
                 </div>
             </div>
             
-            <div class="row mr-0 ml-0">
-                <div class="col-8 col-sm-6">
-                    <p class="sub-title">Все фотографии</p>
-                </div>
-                <div class="col-4 text-right media-sort">
-                    <div class="dropdown">
-                        <i class="d-none d-sm-inline">Сортировать </i>
-                        <button class="d-none d-sm-inline btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            по популярности
-                        </button>
-                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                            <a class="dropdown-item" href="#">по просмотрам</a>
-                            <a class="dropdown-item" href="#">чем-то другим</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            
+            <div class="col-12">
+                <p class="sub-title">Все фотографии</p>
+            </div>            
             
 			<div class="row mr-0 ml-0">
                 <div class="col-lg-4 col-md-4 col-6 ">
@@ -373,6 +370,10 @@
                         </div>
                     </a>
                 </div>
+
+                <button class="btn gallery-button d-flex justify-content-center">
+                    <p> Посмотреть ещё</p>
+                </button>
             </div>
         </div>
     </div>
