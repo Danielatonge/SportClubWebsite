@@ -434,11 +434,9 @@ nav ul.pagination {
 
   color: #000000;
 }
-.dropdown .dropdown-item {
-  color:  #1D66C1;
-}
-.dropdown .dropdown-item.non-active {
-  color:  #000;
+.dropdown .dropdown-item.active {
+  color:  #4267B2;
+  background-color: #fff;
 }
 .dropdown .dropdown-item-top {
   color:  #000;
