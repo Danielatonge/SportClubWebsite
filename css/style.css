@@ -58,7 +58,7 @@ html, body {
   font-weight: normal;
   font-size: 1rem;
   line-height: 1.188rem;
-
+  vertical-align: middle;
   color: #A0A0A0;
 }
 
@@ -471,6 +471,11 @@ nav.navbar.horizontal-bar {
 @media (min-width: 768px) { 
   .paint-blue {
     height: 3.75rem;
+  }
+  .dropdown-menu {
+    margin: .6rem 0 0;
+    border-radius: 0;
+    border: 2px solid #F0F0F0;
   }
  }
 .paint-blue {
@@ -974,6 +979,10 @@ nav.navbar.horizontal-bar-2 {
   .inner-navigation.list-group {
     flex-direction:column !important;
   }
+  .socials-xs {
+    text-align: center;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 768px) {
@@ -1287,4 +1296,17 @@ nav.navbar.horizontal-bar-2 {
 
 .sport-video .embed-responsive {
   border-radius: 0.25rem;
+}
+
+.list-group-item:last-child, .list-group-item:first-child {
+  border-radius: 0;
+}
+
+.list-group-item {
+  margin-bottom: 0;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
