@@ -1119,7 +1119,6 @@ nav.navbar.horizontal-bar-2 {
   padding-top: 1rem;
 }
 
-<<<<<<< HEAD
 .sportsclub-title {
   position: relative;
 
@@ -1246,7 +1245,8 @@ nav.navbar.horizontal-bar-2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-=======
+}
+
 .navbar.horizontal-bar .dropdown .dropdown-toggle::after {
   content: none;
 }
@@ -1287,5 +1287,4 @@ nav.navbar.horizontal-bar-2 {
 
 .sport-video .embed-responsive {
   border-radius: 0.25rem;
->>>>>>> daniel
 }
