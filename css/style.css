@@ -126,7 +126,7 @@ html, body {
 .features .feature-title {
   position: relative;
   padding-top: 1.875rem;
-
+  margin-left: -4px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -138,6 +138,9 @@ html, body {
 
 .joined-cards div.card {
   margin: 0;
+}
+.joined-cards {
+  border-radius: 0.25rem;
 }
 
 .card-title {
@@ -431,18 +434,16 @@ nav ul.pagination {
 
   color: #000000;
 }
-.dropdown .dropdown-item {
-  color:  #1D66C1;
-}
-.dropdown .dropdown-item.non-active {
-  color:  #000;
+.dropdown .dropdown-item.active {
+  color:  #4267B2;
+  background-color: #fff;
 }
 .dropdown .dropdown-item-top {
   color:  #000;
   padding-left: 15px;
 }
 .dropdown-width, .dropdown-menu {
-  min-width: 6rem;
+  min-width: 5rem;
 }
 .dropdown i {
   margin-right: .65rem;
@@ -944,7 +945,7 @@ nav.navbar.horizontal-bar-2 {
     padding-left: 16px;
   }
   img.img-fluid-xs {
-    width: 50%;
+    width: 70%;
     height: auto;
   }
   .padding-right-xs {
@@ -958,6 +959,20 @@ nav.navbar.horizontal-bar-2 {
   }
   .remove-xs {
     display: none;
+  }
+  .icons {
+    text-align: center !important;
+  }
+  .joined-cards .card.ctop {
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .joined-cards .card.cbottom {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+  }
+  .inner-navigation.list-group {
+    flex-direction:column !important;
   }
 }
 
@@ -996,6 +1011,10 @@ nav.navbar.horizontal-bar-2 {
   }
   .bottom-right {
     vertical-align: top;
+  }
+  img.img-fluid-xs {
+    width: 65%;
+    height: auto;
   }
 }
 
@@ -1039,14 +1058,23 @@ nav.navbar.horizontal-bar-2 {
 }
 
 
-@media (max-width: 490px) {
+@media (max-width: 432px) {
   .center-xxs {
     min-width: 100%;
     text-align: center !important;
   }
+  .media-card-overlay-title {
+    font-size: .65rem;
+    line-height: 1.188rem;
+  
+    color: #FFFFFF;
+  }
 }
 #new-card .card {
   min-width: 100%;
+}
+#new-card {
+  margin-left: -8px;
 }
 
 .card.mbottom {
@@ -1070,26 +1098,28 @@ nav.navbar.horizontal-bar-2 {
 .icons {
   font-size: 1.25rem;
   padding-bottom: 10px;
+  text-align: right;
 }
-.fa-vk {
+.socials .fa-vk {
   color: #4c75a3;
 }
-.fa-instagram {
+.socials .fa-instagram {
   color: #E1306C;
 }
-.fa-telegram-plane {
+.socials .fa-telegram-plane {
   color: #0088cc;
 }
-.fa-whatsapp {
+.socials .fa-whatsapp {
   color: #25D366;
 }
-.fa-facebook-square {
+.socials .fa-facebook-square {
   color: #4267B2;
 }
 .card-body.souvernir-card .row.mt-auto {
   padding-top: 1rem;
 }
 
+<<<<<<< HEAD
 .sportsclub-title {
   position: relative;
 
@@ -1216,4 +1246,46 @@ nav.navbar.horizontal-bar-2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+=======
+.navbar.horizontal-bar .dropdown .dropdown-toggle::after {
+  content: none;
+}
+
+#dropdownMenuButtonTwo.dropdown-toggle::after {
+  content: none;
+}
+
+.navbar.horizontal-bar .dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.navbar.horizontal-bar .dropdown > .dropdown-toggle:active {
+  /*Without this, clicking will make it sticky*/
+  pointer-events: none;
+}
+.fa-eye {
+  vertical-align: middle;
+}
+
+.social-icons a {
+  border: 1px #A0A0A0 solid;
+  border-radius: 5px;
+  font-size: x-large;
+  padding: .5rem;
+  margin-right: 10px;
+  width: 40px;
+}
+.social-icons a:hover{
+  color:#fff;
+  border: 1px #fff solid;
+}
+
+@media (min-width: 576px) {
+  .card-deck .card {
+    margin: 10px;
+  }
+}
+
+.sport-video .embed-responsive {
+  border-radius: 0.25rem;
+>>>>>>> daniel
 }
