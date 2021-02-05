@@ -472,7 +472,7 @@ nav.navbar.horizontal-bar {
   .paint-blue {
     height: 3.75rem;
   }
-  .dropdown-menu {
+  #navbarResponsiveNew .dropdown-menu {
     margin: .6rem 0 0;
     border-radius: 0;
     border: 2px solid #F0F0F0;
@@ -504,17 +504,6 @@ a.header-icons {
 .remove-margin {
   margin-top: 0;
   margin-bottom: 0;
-}
-
-@media (max-width: 768px) { 
-  .no-margin-top-bottom {
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  .center-xs {
-    text-align: center;
-    margin: 0 auto;
-  }
 }
 
 .zoom-img {
@@ -768,7 +757,7 @@ a.header-icons {
   background-color: #FFF;
   text-align: center;
 
-  padding: 1rem;
+  padding: 1.25rem 1.563rem;
   width: 100%;
   height: auto;
 
@@ -1044,16 +1033,13 @@ nav.navbar.horizontal-bar-2 {
 
 .media-video-title {
   position: relative;
-
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 2rem;
-
   padding-top: 0.5rem;
   padding-bottom: 2.5rem;
-
   color: #000000;
 }
 
@@ -1104,6 +1090,7 @@ nav.navbar.horizontal-bar-2 {
 }
 #new-card {
   margin-left: -8px;
+  margin-right: -8px;
 }
 
 .card.mbottom {
@@ -1329,4 +1316,44 @@ nav.navbar.horizontal-bar-2 {
   position: fixed;
   top: 0;
   width: 100%;
+}
+.remove-margin > a {
+  background-color: #A0A0A0;
+  color: #fff;
+  border-radius: 5px;
+  padding: .3rem;
+}
+
+.row.sport-video, .row.sport-photo,
+.row.marketing-contacts {
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+@media (max-width: 768px) { 
+  .no-margin-top-bottom {
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .center-xs {
+    text-align: center;
+    margin: 0 auto;
+  }
+  .media-video-title {
+    font-size: 1.4rem;
+    padding-bottom: 0.5rem;
+  }
+  .gallery-video-title {
+    font-size: 1.6rem;
+  }
+  .page-title {
+    font-size: 1.6rem;
+    line-height: normal;
+  }
+}
+
+.column-count {
+  -webkit-column-count: 3;
+  -moz-column-count: 3;
+  column-count: 3;
 }
