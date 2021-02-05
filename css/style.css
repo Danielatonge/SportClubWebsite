@@ -913,8 +913,23 @@ nav.navbar.horizontal-bar-2 {
     text-align: center;
     margin: 0 auto;
   }
+  .column-count {
+    -webkit-column-count: 1 !important;
+    -moz-column-count: 1 !important;
+    column-count: 1 !important;
+  }
 }
-
+@media (min-width: 768px) and (max-width: 992px) {
+  .block-search::before {
+    content: none;
+  }
+  .block-icon {
+    display: none;
+  }
+  .bottom-right {
+    vertical-align: top;
+  }
+}
 @media (min-width: 576px) and (max-width: 768px) {
 
   nav.navbar.horizontal-bar {
@@ -1282,6 +1297,9 @@ nav.navbar.horizontal-bar-2 {
   .page-title {
     font-size: 1.6rem;
     line-height: normal;
+  }
+  .remove-xs {
+    display: none;
   }
 }
 
