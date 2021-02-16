@@ -1311,9 +1311,8 @@ nav.navbar.horizontal-bar-2 {
     position:absolute;
     right: 1.5rem;
   }
-  .menu-item a.nav-link{
-    /* padding-right: 1.5rem; */
-  }
+  /* .menu-item a.nav-link{
+  } */
 }
 
 .column-count {
