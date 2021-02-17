@@ -1443,3 +1443,197 @@ table.table {
 
   color: #FFFFFF;
   }
+
+
+
+
+  /* ------------------------------------
+    18. Team Section CSS
+-------------------------------------*/
+.rs-team.style1 .player-item {
+  position: relative;
+}
+.rs-team.style1 .player-item .player-img img {
+  border-radius: 4px 4px 6px 6px;
+}
+.rs-team.style1 .player-item .person-details {
+  padding: 20px 25px;
+  position: absolute;
+  content: '';
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: all 0.3s ease 0s;
+  min-height: 80px;
+}
+.rs-team.style1 .player-item .person-details .player-title {
+  font-size: 15px;
+  text-align: left;
+  overflow: hidden;
+  text-transform: uppercase;
+  margin: 0 0 10px;
+  padding-bottom: 2px;
+  transition: .4s;
+  margin-bottom: 0;
+  position: relative;
+  z-index: 9;
+}
+.rs-team.style1 .player-item .person-details .player-title .squad-numbers {
+  font-size: 55px;
+  line-height: 60px;
+  color: #fbc02d;
+  float: left;
+  padding-right: 16px;
+}
+.rs-team.style1 .player-item .person-details .player-title a {
+  padding-top: 4px;
+  display: inline-block;
+  font-size: 22px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  color: #111111;
+}
+.rs-team.style1 .player-item .person-details .player-title a:hover {
+  color: #fbc02d;
+}
+.rs-team.style1 .player-item .person-details .player-title .player-position {
+  display: block;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 17px;
+  color: #555555;
+  text-transform: capitalize;
+}
+.rs-team.style1 .player-item .person-details:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eff4fd;
+  color: #fff;
+  opacity: 1;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  border-radius: 0 0 4px 4px;
+}
+.rs-team.style1.modify-style .player-item .player-img img {
+  border-radius: 4px 4px 6px 6px;
+}
+.rs-team.style1.modify-style .player-item .person-details .player-title {
+  color: #ffffff;
+}
+.rs-team.style1.modify-style .player-item .person-details .player-title .squad-numbers {
+  color: #fbc02d;
+}
+.rs-team.style1.modify-style .player-item .person-details .player-title a {
+  color: #ffffff;
+}
+.rs-team.style1.modify-style .player-item .person-details .player-title a:hover {
+  color: #ffffff;
+}
+.rs-team.style1.modify-style .player-item .person-details .player-title .player-position {
+  color: #ffffff;
+}
+.rs-team.style1.modify-style .player-item .person-details:after {
+  position: unset;
+  content: unset;
+}
+.rs-team.style1.modify-style .player-item:after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+  display: block;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85) 30%, rgba(255, 255, 255, 0) 70%);
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav {
+  position: absolute;
+  content: '';
+  right: 30px;
+  bottom: 30px;
+  z-index: 1;
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-prev,
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-next {
+  display: inline;
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-prev i,
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-next i {
+  width: 30px;
+  height: 30px;
+  line-height: 27px;
+  color: #fbc02d;
+  border-radius: 50%;
+  text-align: center;
+  border: 1.5px solid #fbc02d;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  opacity: 0.5;
+  font-size: 20px;
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-prev i:hover,
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-next i:hover {
+  opacity: 1;
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-prev i.fa-angle-left:before,
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-next i.fa-angle-left:before {
+  margin-right: 3px;
+}
+.rs-team.style1.modify-style .owl-controls .owl-nav .owl-prev {
+  margin-right: 10px;
+}
+
+.rs-team.swiper-slider .swiper-container {
+  position: relative;
+}
+.rs-team.swiper-slider .swiper-container .swiper-pagination {
+  bottom: 0;
+  top: unset;
+  height: 5px;
+  border-radius: 3px;
+  background: #555555;
+  overflow: hidden;
+}
+.rs-team.swiper-slider .swiper-container .swiper-pagination span {
+  background: #fbc02d;
+  border-radius: 3px;
+}
+.rs-team.swiper-slider .swiper-container .slider-nav .nav {
+  display: inline;
+  cursor: pointer;
+  position: absolute;
+  content: '';
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  transition: all 0.3s ease 0s;
+  opacity: 0;
+}
+.rs-team.swiper-slider .swiper-container .slider-nav .nav i:before {
+  color: #111111;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 20px;
+  border-radius: 100%;
+  border: 1px solid #fbc02d;
+  background: #fbc02d;
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+}
+.rs-team.swiper-slider .swiper-container .slider-nav .nav.prev {
+  left: 0;
+}
+.rs-team.swiper-slider .swiper-container .slider-nav .nav.next {
+  right: 0;
+}
+.rs-team.swiper-slider .swiper-container .slider-nav .nav:hover i:before {
+  color: #ffffff;
+}
+.rs-team.swiper-slider .swiper-container:hover .slider-nav .nav {
+  opacity: 1;
+}
