@@ -1637,3 +1637,59 @@ table.table {
 .rs-team.swiper-slider .swiper-container:hover .slider-nav .nav {
   opacity: 1;
 }
+
+
+.calendar {
+  border-bottom: 1px solid #f0f0f0;
+  background-color: #fff;
+}
+.calendar-heading {
+  color: #A0A0A0;
+  font-weight: normal;
+}
+.calendar-item small {
+  color:#1D66C1;
+}
+
+.calendar-item, .calendar-heading {
+  padding: 12px;
+}
+
+.calendar-item {
+  border-top: 1px solid #f0f0f0;
+}
+
+.calendar .calendar-col:first-child {
+  border-left: 1px solid #f0f0f0;
+}
+
+.calendar .calendar-col {
+  border-right: 1px solid #f0f0f0;
+  padding: 0px;
+}
+.btn-calendar {
+  background-color: #fff;
+  padding: 0px;
+}
+
+.top-calendar {
+  background-image: url("../images/Group 323.png");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.relative-bottom {
+  position: relative;
+  bottom: -8px;
+}
+.calendar-item .dropdown-toggle::after{
+  content: unset;
+}
+.calendar-item.dropdown-item {
+  min-width: 8rem;
+}
+ 
