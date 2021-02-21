@@ -845,6 +845,10 @@ nav.navbar.horizontal-bar-2 {
 }
 
 @media (max-width: 576px) {
+  /* .timer {
+    width: 100%;
+    margin: 0 auto;
+  } */
   .block-icon {
     display: none;
   }
@@ -1332,14 +1336,17 @@ img.eye-icon {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  color: #fff;
 }
-
+.sub-note {
+  color: #1D66C1;
+}
 .timer {
   font-weight: 900;
   font-size: 40px;
   line-height: 40px;
-  width: 65%;
-  margin: 0 auto;
+  /* width: 65%;
+  margin: 0 auto; */
 }
 
 .start {
@@ -1351,7 +1358,7 @@ img.eye-icon {
   position: absolute;
   width: 100%;
   left: 0;
-  top: 80%;
+  top: 60%;
   text-align: center;
 }
 .stop {
