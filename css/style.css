@@ -1793,3 +1793,98 @@ table.table {
   position: relative;
   bottom: -25px;
 }
+
+.sbornyie-sostav {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFFF;
+}
+
+.sbornyie-sostav-small {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem;
+  line-height: 1rem;
+
+  display: flex;
+  align-items: flex-end;
+
+  color: #FFFFFF;
+  }
+
+  .sbornyie-title {
+    position: relative;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+
+    color: #000000;
+  }
+  .sbornyie-heading {
+    position: relative;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 1.75rem;
+    font-weight: 500;
+
+    color: #1D66C1;
+  }
+
+  .sbornyie-text {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.sbornyie-black-heading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+
+  text-align: justify;
+
+  color: #000000;
+}
+
+.sbornyie-large-heading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.938rem;
+  /* identical to box height */
+
+
+  color: #000000;
+}
