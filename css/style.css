@@ -1960,3 +1960,30 @@ table.table {
 
   color: #000000;
 }
+
+.tryout {
+  width: 100px;
+  height: 100px;
+}
+.events input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-color: #fff;
+}
+.fa-plus {
+  position: relative;
+  font-size: 50px;
+  color: #A0A0A0;
+  bottom:-12px
+}
+.btn-modify {
+  width: 270px;
+  height: 60px;
+}

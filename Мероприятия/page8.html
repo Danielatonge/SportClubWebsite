@@ -158,18 +158,29 @@
                                 placeholder="">
                         </div>
 
-                        <div class="row">
-                            <div class="col-4">
-
+                        <div class="row pb-3">
+                            <div class="col-4 events">
+                                <label for="file-upload" class="custom-file-upload text-center">
+                                        <i class="fas fa-plus"></i>
+                                </label>
+                                <input id="file-upload" type="file"/>
                             </div>
                             <div class="col-8">
-                                <div class="h5"> </div>
-                                <div class="text-muted">
-                                    
+                                <div class="h4">
+                                    Логотип
+                                </div>
+                                <div class="text-muted small">
+                                    Логотип должен быть в формате: JPG, JPEG, PNG или GIF, размер не должен превышать 2 Мб, 
+                                    разрешение не более 1000х1000 px. 
                                 </div>
                             </div>
                         </div>
-
+                        <div class="form-group pb-3">
+                            <label for="question4">Развернутый вопрос</label>
+                            <textarea height="200px" class="form-control" id="question4" aria-describedby="questionHelp"
+                                placeholder="Логотип должен быть в формате: JPG, JPEG, PNG или GIF, размер не должен превышать 2 Мб, разрешение не более 1000х1000 px."></textarea>
+                        </div>
+                        <div class="h6">Несколько из списка</div>
                         <div class="form-check">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
                             <label class="form-check-label" for="exampleCheck1">Вариант 1</label>
@@ -178,11 +189,12 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck2">
                             <label class="form-check-label" for="exampleCheck2">Вариант 2</label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check pb-3">
                             <input type="checkbox" class="form-check-input" id="exampleCheck3" checked>
                             <label class="form-check-label" for="exampleCheck3">Вариант 3</label>
                         </div>
-
+                        
+                        <div class="h6">Выбор из списка</div>
                         <div class="form-check">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1"
                                 value="option1">
@@ -197,7 +209,7 @@
                                 Вариант 2
                             </label>
                         </div>
-                        <div class="form-check">
+                        <div class="form-check pb-5">
                             <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3"
                                 value="option3">
                             <label class="form-check-label" for="exampleRadios3">
@@ -205,13 +217,13 @@
                             </label>
                         </div>
 
-                        <div class="form-check">
+                        <div class="form-check pb-3">
                             <input type="checkbox" class="form-check-input" id="exampleCheck1" checked>
                             <label class="form-check-label d-inline-block" for="exampleCheck1">Я даю согласие на
                                 обработку персональных данных</label>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Отправить заявку</button>
+                        <button type="submit" class="btn btn-primary btn-modify">Отправить заявку</button>
                     </form>
                 </div>
                 <div class="col-6 pl-4">
