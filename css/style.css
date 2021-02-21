@@ -1400,6 +1400,7 @@ table.table thead th {
   font-weight: normal;
 }
 table.table {
+  background-color: #FFFFFF;
   border: 1px solid #f0f0f0;
 }
 .game-scores {
@@ -1696,4 +1697,112 @@ table.table {
 }
 .calendar-item.dropdown-item {
   min-width: 8rem;
+}
+
+.turnir-subheading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  text-align: justify;
+
+  color: #1D66C1;
+}
+
+.turnir-heading{
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 2.938rem;
+
+  text-align: justify;
+
+  color: #1D66C1;
+}
+
+.turnir-largetext {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 2.5rem;
+
+  text-align: justify;
+
+  color: #000000;
+}
+.button-image:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.myButton:before{
+   background-image : url(../images/videocam.svg);
+}
+.button-image2:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.myButton2:before{
+   background-image : url(../images/filter.svg);
+}
+
+.search-game {
+  padding: 1rem;
+  border: none;
+  cursor: pointer;
+  width: 75%;
+  border-radius: 0.313rem;
+}
+
+.search-game-card-subtext {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.875rem;
+  line-height: 1rem;
+
+  margin-bottom: 0;
+
+  color: #1D66C1;
+}
+.search-game-card-title {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.75rem;
+  
+  color: #1D66C1;
+}
+.search-game-card-img {
+  width: 100%;
+  object-fit: cover;
 }
