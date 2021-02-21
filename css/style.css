@@ -1338,6 +1338,15 @@ img.eye-icon {
   background-size: cover;
   color: #fff;
 }
+
+.tournir-header-background {
+  background-image: url("../images/tournir.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .sub-note {
   color: #1D66C1;
 }
@@ -1805,4 +1814,11 @@ table.table {
 .search-game-card-img {
   width: 100%;
   object-fit: cover;
+}
+
+.btn-transparent {
+  padding: 10px 25px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
 }
