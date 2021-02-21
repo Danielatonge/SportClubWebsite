@@ -1842,3 +1842,15 @@ table.table {
   line-height: 75px;
   font-weight: 900;
 }
+
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+
+.calendar-heading > .form-group > .form-control {
+  padding: 0px 0px 0px 8px;
+  border: unset
+}
