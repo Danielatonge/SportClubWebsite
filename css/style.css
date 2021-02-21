@@ -708,12 +708,12 @@ a.header-icons {
   color: #000000;
 }
 nav.navbar.horizontal-bar-2 {
-  background: #FFF;
+  background-color: #FFF;
   padding-top: 0;
   padding-bottom: 0;
 }
 .navbar-nav .nav-link.second-link {
-  color: #032F5E;
+  color: #032F5E !important;
   opacity: 0.6;
 }
 .menu-item a.nav-link.second-link:hover{
