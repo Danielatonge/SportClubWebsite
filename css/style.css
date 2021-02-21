@@ -1347,6 +1347,14 @@ img.eye-icon {
   color: #fff;
 }
 
+.kiberzone-header-background {
+  background-image: url("../images/kiberzone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .sub-note {
   color: #1D66C1;
 }
@@ -1821,4 +1829,16 @@ table.table {
   color: #fff;
   border: 1px solid #fff;
   background-color: transparent;
+}
+
+.kiber-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.kiber-header {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 900;
 }
