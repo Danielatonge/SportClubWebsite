@@ -708,12 +708,12 @@ a.header-icons {
   color: #000000;
 }
 nav.navbar.horizontal-bar-2 {
-  background: #FFF;
+  background-color: #FFF;
   padding-top: 0;
   padding-bottom: 0;
 }
 .navbar-nav .nav-link.second-link {
-  color: #032F5E;
+  color: #032F5E !important;
   opacity: 0.6;
 }
 .menu-item a.nav-link.second-link:hover{
@@ -1338,6 +1338,23 @@ img.eye-icon {
   background-size: cover;
   color: #fff;
 }
+
+.tournir-header-background {
+  background-image: url("../images/tournir.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.kiberzone-header-background {
+  background-image: url("../images/kiberzone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .sub-note {
   color: #1D66C1;
 }
@@ -1345,14 +1362,12 @@ img.eye-icon {
   font-weight: 900;
   font-size: 40px;
   line-height: 40px;
-  /* width: 65%;
-  margin: 0 auto; */
 }
 
 .start {
   position: relative;
   display: inline-block;
-  margin-bottom: 1.5em;
+  margin-bottom: 1rem;
 }
 .start .stop {
   position: absolute;
@@ -1887,4 +1902,34 @@ table.table {
 
 
   color: #000000;
+}
+.btn-transparent {
+  padding: 10px 25px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.kiber-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.kiber-header {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 900;
+}
+
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+
+.calendar-heading > .form-group > .form-control {
+  padding: 0px 0px 0px 8px;
+  border: unset
 }
