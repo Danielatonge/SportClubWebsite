@@ -124,20 +124,54 @@
                 Nunc luctus tristique cras sed imperdiet in eget. Lorem amet, risus augue mauris iaculis mi. Aliquet eget leo posuere semper nec at ac, etiam. Orci tristique fusce aenean eget et id pellentesque in. Vivamus nisl bibendum tristique tristique amet, in lectus felis. At eget aenean vitae enim. Et, pellentesque neque commodo cursus <br>
             </p>
             
-            <button type="button" class="btn btn-primary">Отправить заявку</button>
-            <button type="button" class="btn btn-light button-image myButton">Видеоинструкция</button>
+			<div class="pb-4">
+				<button type="button" class="btn btn-primary mr-2">Отправить заявку</button>
+				<button type="button" class="btn btn-light ml-2">
+					<img class="img-fluid" src="../images/videocam.svg">
+					Видеоинструкция
+				</button>
+			</div>
 
-			<div>
-				<input class="search-game" type="text" placeholder="Введите фамилию и имя игрока">
-				<button type="button" class="btn btn-primary">Найти игрока</button>
-				<button type="button" class="btn btn-light button-image2 myButton2"></button>
+			<div class="input-group mb-4">
+				<input type="text" class="form-control search-game" placeholder="Введите фамилию и имя игрока">
+				<div class="input-group-append">
+					<button type="button" class="btn btn-primary">Найти игрока</button>
+				</div>
+				<div>
+					<button class="btn btn-light btn-onclick" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+						<img class="img-fluid" src="../images/filter.svg">
+					</button>
+				</div>
+				
+			</div>
+
+			<div class="collapse" id="collapseExample">
+				<div class="row mb-4">
+					<div class="col pl-0">
+						<p class="mb-0" >Вид спорта</p>
+						<select class="form-control">
+							<option>Выберите вид спорта</option>
+						</select>
+					</div>
+					<div class="col">
+						<p class="mb-0">Позиция</p>
+						<select class="form-control">
+							<option>Выберите позицию</option>
+						</select>
+					</div>
+					<div class="col pr-0 text-right" style="position: relative;">
+						<button type="button" class="btn btn-light trythis">
+							Применить фильтры
+						</button>
+					</div>
+				</div>
 			</div>
 
             <div class="row">
-				<div class="col-6">
+				<div class="col-6 p-0">
 					<p>Ищут команду: 2 625 игроков</p>
 				</div>
-				<div class="col-6 text-right">
+				<div class="col-6 p-0 text-right">
 					<div class="dropdown">
 						<i class="d-none d-sm-inline">Сортировать </i>
 						<button class="d-none d-sm-inline btn btn-sort dropdown-toggle" type="button" id="dropdownMenuButton"
@@ -156,10 +190,10 @@
 				<div class="card card-shadow">
 					<div class="card-body d-flex flex-column">
 						<div class="row">
-							<div class="col-2 pl-0">
+							<div class="col-4 col-md-4 col-lg-2 pl-0">
 								<img class="img-fluid search-game-card-img" src="../images/Rectangle 500.png">
 							</div>
-							<div class="col-10">
+							<div class="col-8 col-md-8 col-lg-10">
 								<div class="row">
 									<div class="col-12">
 										<p class="search-game-card-title">Фамилия Имя</p>
@@ -188,10 +222,10 @@
 				<div class="card card-shadow">
 					<div class="card-body d-flex flex-column">
 						<div class="row">
-							<div class="col-2 pl-0">
+							<div class="col-4 col-md-4 col-lg-2 pl-0">
 								<img class="img-fluid search-game-card-img" src="../images/Rectangle 500.png">
 							</div>
-							<div class="col-10">
+							<div class="col-8 col-md-8 col-lg-10">
 								<div class="row">
 									<div class="col-12">
 										<p class="search-game-card-title">Фамилия Имя</p>
