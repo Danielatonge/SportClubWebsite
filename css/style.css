@@ -1355,6 +1355,22 @@ img.eye-icon {
   color: #fff;
 }
 
+.main-header1-background {
+  background-image: url("../images/header1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.main-header2-background {
+  background-image: url("../images/header2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .sub-note {
   color: #1D66C1;
 }
@@ -1756,6 +1772,36 @@ table.table {
 
   color: #000000;
 }
+.button-image:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.myButton:before{
+   background-image : url(../images/videocam.svg);
+}
+.button-image2:before {
+  content: "";
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-color: transparent;
+  background-position : center center;
+  background-repeat:no-repeat;
+}
+
+.myButton2:before{
+   background-image : url(../images/filter.svg);
+}
 
 .search-game {
   padding: 1rem;
@@ -1773,7 +1819,6 @@ table.table {
   font-weight: 500;
   font-size: 0.875rem;
   line-height: 1rem;
-
   margin-bottom: 0;
 
   color: #1D66C1;
@@ -1786,8 +1831,6 @@ table.table {
   font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.75rem;
-  margin-bottom: 0;
-  padding: 0;
   
   color: #1D66C1;
 }
@@ -1796,6 +1839,36 @@ table.table {
   object-fit: cover;
 }
 
+.btn-transparent {
+  padding: 10px 25px;
+  color: #fff;
+  border: 1px solid #fff;
+  background-color: transparent;
+}
+
+.kiber-text {
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: normal;
+}
+
+.kiber-header {
+  font-size: 64px;
+  line-height: 75px;
+  font-weight: 900;
+}
+
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+.calendar-heading > .form-group {
+  margin-bottom: 0px;
+}
+
+.calendar-heading > .form-group > .form-control {
+  padding: 0px 0px 0px 8px;
+  border: unset
+}
 .btn-light {
   background-color: #fff !important;
 }
@@ -1910,23 +1983,28 @@ table.table {
   background-color: transparent;
 }
 
-.kiber-text {
-  font-size: 18px;
-  line-height: 24px;
-  font-weight: normal;
+.tryout {
+  width: 100px;
+  height: 100px;
 }
-
-.kiber-header {
-  font-size: 64px;
-  line-height: 75px;
-  font-weight: 900;
+.events input[type="file"] {
+  display: none;
 }
-
-.calendar-heading > .form-group {
-  margin-bottom: 0px;
+.custom-file-upload {
+  border: 1px solid #ccc;
+  display: inline-block;
+  padding: 6px 12px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background-image: url(../images/addMedia.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-.calendar-heading > .form-group {
-  margin-bottom: 0px;
+.btn-modify {
+  width: 270px;
+  height: 60px;
 }
 
 .calendar-heading > .form-group > .form-control {
@@ -2058,4 +2136,18 @@ ol.breadcrumb li {
   margin-bottom: 0;
 
   color: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+}
+.main-card {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.main-header-item {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #A0A0A0;
 }
