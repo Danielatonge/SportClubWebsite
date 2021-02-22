@@ -1933,3 +1933,129 @@ table.table {
   padding: 0px 0px 0px 8px;
   border: unset
 }
+
+.breadcrumb {
+  background-color: #FFF;
+}
+
+ol.breadcrumb li {
+  white-space: nowrap;
+  display: inline;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: "→";
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.kiberzone-heading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+
+  text-align: justify;
+
+  color: #1D66C1;
+}
+
+.kiberzone-blue-subheading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  text-align: justify;
+
+  color: #1D66C1;
+}
+
+.kiberzone-blue-text {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 1.188rem;
+
+  text-align: justify;
+
+  color: #1D66C1;
+}
+
+.kiberzone-text {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  text-align: justify;
+
+  color: #000000;
+}
+
+.sbornyie-card-heading {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.375rem;
+  line-height: 1.625rem;
+
+  margin-bottom: 0;
+
+  color: #000000;
+}
+
+.sbornyie-card-score {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+  text-align: center;
+
+  margin-bottom: 0;
+
+  color: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+}
+
+.sbornyie-card-time {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25rem;
+  line-height: 1.438rem;
+
+  margin-bottom: 0;
+
+  color: #000000;
+}
+
+.sbornyie-card-date {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.188rem;
+
+  margin-bottom: 0;
+
+  color: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+}
