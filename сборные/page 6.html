@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Сборные</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+		integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="../js/script.js"></script>
+
+	<!-- Navigation -->
+	<div class="header justify-xs">
+		<div class="container equalify">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-5 col-lg-5 pl-0 center-xxs">
+					<div class="row pt-2">
+						<div class="col-12 col-sm-7 col-md-4 col-lg-3 pr-0 pl-0 pt-0">
+							<a class="navbar-brand padding-xs pl-0 pt-sm-0" href="#" >
+							<img src="../images/logo-icon.png" class="img-fluid img-fluid-xs"></a>
+						</div>
+						<div class="col-sm-5 col-md-8 col-lg-8 pl-0 block-icon">
+							<div class="bottom-nav">
+								<img src="../images/logo-name.png" class="img-fluid mb-3">
+								<img src="../images/logo-description.png" class="img-fluid">
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-7 p-0 no-margin-top-bottom block-search text-right center-xxs">
+					<div class="dropdown bottom-right">
+						<div class="row">
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 pl-0 pr-0 xs-nav remove-xs">
+								<p class="remove-margin">
+									<small class="mr-2">Подпишись на социальные сети: </small>
+									<a class="header-icons" href="#"><i class="fab fa-vk"></i></a> 
+									<a href="#" style="padding: .3rem .44rem;"><i class="fab fa-instagram"></i></a>
+									<a class="" href="#"><i class="fab fa-youtube"></i></a>
+								</p>
+							</div>
+							<div class="col-12 col-md-12 col-sm-12 col-lg-12 mt-2 p-md-0 padding-right-xs">
+								<button class="btn-nav mr-2" style="width:3rem;" type="button">
+									<img src="../images/search.svg">
+								</button>
+								<button class="btn-nav dropdown-toggle" type="button" id="dropdownMenuButtonTwo"
+									data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									<img src="../images/flag.svg"></i> РУС
+								</button>
+								<div class="dropdown-menu dropdown-width" aria-labelledby="dropdownMenuButtonTwo">
+									<a class="dropdown-item-top" href="#"><img src="../images/flag.svg"></i> ENG</a>
+								</div>
+
+								<button class="navbar-toggler paint-blue button-xs ml-2" style="height: 3rem; width: 3rem;" type="button" data-toggle="collapse" data-target="#navbarResponsiveNew">
+									<span class="fa fa-bars" style="color: #fff;"></span>
+								</button>
+							</div>
+						</div>
+						
+					</div>	
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Navigation -->
+		<nav class="navbar horizontal-bar navbar-expand-md navbar-dark">
+			<div class="container">
+				<div class="collapse navbar-collapse" id="navbarResponsiveNew">
+					<ul class="navbar-nav nav-fill paint-blue w-100 d-flex align-items-center">
+						<li class="nav-item menu-item">
+							<a class="nav-link" href="#">Главная</a>
+						</li>
+						<li class="nav-item menu-item">
+							<a class="nav-link " href="#">Новости</a>
+						</li>
+						<li class="nav-item menu-item">
+							<div class="dropdown">
+                                <a class="nav-link dropdown-toggle" type="button" id="myDropdown4" href="#" data-toggle="dropdown" aria-expanded="false">Спортклуб</a>
+                                <ul class="dropdown-menu" aria-labelledby="myDropdown4">
+                                    <li><a class="dropdown-item" href="#">Наша миссия</a></li>
+									<li><a class="dropdown-item" href="#">Достижения</a></li>
+									<li><a class="dropdown-item" href="#">История</a></li>
+									<li><a class="dropdown-item" href="#">Семья</a></li>
+                                </ul>
+                            </div>
+						</li>
+						<li class="nav-item menu-item">
+							<div class="dropdown">
+								<a class="nav-link dropdown-toggle" type="button" id="myDropdownOne" href="#" data-toggle="dropdown" aria-expanded="false">Спорт</a>
+								<ul class="dropdown-menu col-xs-12" aria-labelledby="myDropdownOne">
+									<li><a class="dropdown-item" href="#">Мероприятия</a></li>
+									<li><a class="dropdown-item" href="#">Секции</a></li>
+									<li><a class="dropdown-item" href="#">Поиск игроков</a></li>
+								</ul>
+							</div>
+						</li>
+						<li class="nav-item menu-item">
+							<a class="nav-link active" href="#">Сборные</a>
+						</li>
+						<li class="nav-item menu-item">
+							<div class="dropdown">
+                                <a class="nav-link dropdown-toggle " type="button" id="myDropdown3" href="#" data-toggle="dropdown" aria-expanded="false">Маркетинг</a>
+                                <ul class="dropdown-menu" aria-labelledby="myDropdown3">
+                                    <li><a class="dropdown-item" href="#">Магазин сувениров</a></li>
+									<li><a class="dropdown-item" href="#">Скидки</a></li>
+									<li><a class="dropdown-item" href="#">Партнеры</a></li>
+									<li><a class="dropdown-item " href="#">Сотрудничество</a></li>
+                                </ul>
+                            </div>
+						</li>
+						<li class="nav-item menu-item">
+							<div class="dropdown">
+                                <a class="nav-link dropdown-toggle" type="button" id="myDropdownOne" href="#" data-toggle="dropdown" aria-expanded="false">Медиа</a>
+                                <ul class="dropdown-menu" aria-labelledby="myDropdownOne">
+                                    <li><a class="dropdown-item" href="#">Фотографии</a></li>
+                                    <li><a class="dropdown-item" href="#">Видео</a></li>
+                                </ul>
+                            </div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</div>
+
+	
+	<div class="team-header-background">
+		<div class="container text-center">
+			<div class="row pt-5 pb-3">
+				<div class="col-12">
+					<img class="img-fluid" width="100px" src="../images/mirea.png">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+				<div class="h3">Сборная по футболу РТУ МИРЭА</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="offset-0 col offset-lg-3 col-md-3 col-lg-1 text-md-right">
+					<img src="../images/team.png">
+				</div>
+				<div class="col-12 col-md-6 col-lg-4">
+					<div class="stop pb-1">До следующей игры</div>
+					<div class="row timer w-100">
+						<div class="mx-auto">
+							<span class="start">09<span class="stop sub-note">дней</span></span>:
+							<span class="start">23<span class="stop sub-note">час</span></span>:
+							<span class="start">59<span class="stop sub-note">мин</span></span>:
+							<span class="start">59<span class="stop sub-note">сек</span></span>
+						</div>
+					</div>
+				</div>
+				<div class="col col-md-3 col-lg-1 text-md-left">
+					<img src="../images/team.png">
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <div class="body-colour">
+        <div class="container">
+            <div class="row">
+                <div class="inner-navigation w-100 list-group text-center text-blue">
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center">
+                        <div class="align-self-center">
+                            Расписание игр
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center">
+                        <div class="align-self-center">
+                            Результаты игр
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center">
+                        <div class="align-self-center">
+                            Состав
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center active">
+                        <div class="align-self-center">
+                            Информация
+                        </div>
+                    </a>
+                    <a href="#" class="list-group-item list-group-item-action d-flex justify-content-center">
+                        <div class="align-self-center">
+                            Медиа
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row pt-4">
+				<div class="col-12 col-md-3 pr-3">
+					<div class="outer-navigation list-group text-center text-blue">
+						<a href="#" class="list-group-item list-group-item-action">Тренировки</a>
+						<a href="#" class="list-group-item list-group-item-action" aria-current="true">История</a>
+						<a href="#" class="list-group-item list-group-item-action active">Достижения</a>
+					</div>
+				</div>
+				<div class="col-12 col-md-9 w-100">
+                    <p class="sbornyie-title">Достижения</p>
+					<div class="row mt-4 mb-5" id="new-card">
+						<div class="col-12 col-md-6 col-xl-4 d-flex">
+							<div class="card card-shadow zoom-img">
+								<div class="">
+									<img class="card-img-top" src="../images/Rectangle 38.png" alt="img3">
+								</div>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">Мужская сборная по волейболу выиграла в любительской
+										волейбольной лиге
+									</h5>
+									<i class="card-hashtag">#ssc_alliance #асск #студенческийспорт</i>
+									<div class="row mt-auto">
+										<div class="col p-0">
+											<i class="card-date">15 окт</i>
+										</div>
+										<div class="col text-right p-0">
+											<img class="eye-icon" src="../images/eye.svg">
+											<i class="card-date">999,999</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 col-xl-4 d-flex">
+							<div class="card zoom-img card-shadow">
+								<div class="img-gradient">
+									<img class="card-img-top" src="../images/Rectangle 17.png" alt="img4">
+								</div>
+								<div class="card-img-overlay d-flex flex-column">
+									<h5 class="card-overlay-title mt-auto">Фуутбольный клуб МИРЭА на АССК.фест 2020!
+									</h5>
+									<i class="card-overlay-hashtag">#ssc_alliance #асск #студенческийспорт</i>
+									<div class="row ">
+										<div class="col p-0">
+											<i class="card-overlay-date">15 окт</i>
+										</div>
+										<div class="col text-right p-0">
+											<img class="eye-icon" src="../images/eye.svg">
+											<i class="card-overlay-date">999,999</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none"></div> -->
+						<div class="col-12 col-md-6 col-xl-4 d-flex">
+							<div class="card card-shadow zoom-img">
+								<div class="">
+									<img class="card-img-top" src="../images/Rectangle 34.png" alt="img5">
+								</div>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">ДИАЛОГ АЛЬЯНСА | вопрос-ответ 💭</h5>
+									<i class="card-hashtag">#ssc_alliance #асск #студенческийспорт</i>
+									<div class="row mt-auto">
+										<div class="col p-0">
+											<i class="card-date">15 окт</i>
+										</div>
+										<div class="col text-right p-0">
+											<img class="eye-icon" src="../images/eye.svg">
+											<i class="card-date">999,999</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<!-- <div class="w-100 d-none d-sm-none d-md-none d-lg-block d-xl-block"></div> -->
+						<div class="col-12 col-md-6 col-xl-4 d-flex">
+							<div class="card zoom-img card-shadow">
+								<div class="img-gradient">
+									<img class="card-img-top" src="../images/Rectangle 44.png" alt="img6">
+								</div>
+								<div class="card-img-overlay d-flex flex-column">
+									<h5 class="card-overlay-title mt-auto">Наши девочки из сборной по черлидингу
+										«Alliance
+										teamcheer»</h5>
+									<i class="card-overlay-hashtag">#ssc_alliance #асск #студенческийспорт</i>
+									<div class="row">
+										<div class="col p-0">
+											<i class="card-overlay-date">15 окт</i>
+										</div>
+										<div class="col text-right p-0">
+											<img class="eye-icon" src="../images/eye.svg">
+											<i class="card-overlay-date">999,999</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<!-- <div class="w-100 d-none d-sm-block d-md-block d-lg-none d-xl-none"></div> -->
+						<div class="col-12 col-md-6 col-xl-4 d-flex">
+							<div class="card card-shadow zoom-img">
+								<div class="">
+									<img class="card-img-top zoom-img" src="../images/Rectangle 38.png" alt="img3">
+								</div>
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title">Мужская сборная по волейболу выиграла в любительской
+										волейбольной лиге
+									</h5>
+									<i class="card-hashtag">#ssc_alliance #асск #студенческийспорт</i>
+									<div class="row mt-auto">
+										<div class="col p-0">
+											<i class="card-date">15 окт</i>
+										</div>
+										<div class="col text-right p-0">
+											<img class="eye-icon" src="../images/eye.svg">
+											<i class="card-date">999,999</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+        </div>
+    </div>
+
+	<!--- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-5 col-md-6 col-12 center-xs">
+					<div class="row">
+						<div class="col-xl-3 col-lg-4">
+							<img src="../images/footer.png" class="img-fluid">
+						</div>
+						<div class="col-xl-8 col-lg-8 block-search">
+							<ul class="list-unstyled footer-address bottom-nav">
+								<li>Москва, Пр-т Вернадского, д. 78</li>
+								<li>+7 (499) 215-65-65</li>
+								<li>rector@mirea.ru</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xl-7 col-md-6 col-12">
+					<div class="row">
+						<div class="col-xl-6 col-lg-6 col-12">
+							<div class="row center-xs">
+								<div class="col-6">
+									<ul class="list-unstyled">
+										<li class="footer-heading"><a href="#">Новости</a></li>
+										<li class="footer-heading"><a href="#">Спортклуб</a></li>
+										<li class="footer-heading"><a href="#">Спорт</a></li>
+									</ul>
+								</div>
+								<div class="col-6">
+									<ul class="list-unstyled">
+										<li class="footer-heading"><a href="#">Сборные</a></li>
+										<li class="footer-heading"><a href="#">Маркетинг</a></li>
+										<li class="footer-heading"><a href="#">Медиа</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="offset-xl-2 offset-lg-1  col-xl-4 col-lg-5  social-icons center-xs">
+							<p class="foot-subtitle col-12 pl-0">Cоциальные сети</p>
+							<a href="#"><i class="fab fa-vk"></i></a> 
+							<a href="#" style="padding: .5rem .69rem;"><i class="fab fa-instagram"></i></a>
+							<a href="#"><i class="fab fa-youtube"></i></a>
+						</div>
+					</div>
+			</div>
+		</div>
+	</footer>
+
+</body>
+
+</html>

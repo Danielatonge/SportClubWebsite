@@ -3,31 +3,85 @@ $(document).ready(function() {
   console.log("document is ready");
    
   $( ".card-shadow" ).hover(
-     function() {
-       $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
-     }, function() {
-       $(this).removeClass('shadow-lg');
-     });
-     
-   // document ready  
-   $('#myCarousel').on('slide.bs.carousel', function (e) {
-    var $e = $(e.relatedTarget);
-    var idx = $e.index();
-    var itemsPerSlide = 3;
-    var totalItems = $('.carousel-item').length;
-    console.log("compare:",totalItems-(itemsPerSlide-1));
-    console.log(e.direction);
-    if(idx >= totalItems-(itemsPerSlide-1)) {
-      var it = itemsPerSlide - (totalItems - idx);
-      for (var i=0; i<it; i++) {
-        // append slides to end
-        if (e.direction=="left") {
-            $('.carousel-item').eq(i).appendTo('.carousel-inner');
-        } else {
-            $('.carousel-item').eq(0).appendTo('.carousel-inner');
-        }
-      }
-    }
+    function() {
+      $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+    }, function() {
+      $(this).removeClass('shadow-lg');
   });
+  
+
+
+  /*-------------------------------------
+    OwlCarousel
+    -------------------------------------*/
+    $('.rs-carousel').each(function() {
+      var owlCarousel = $(this),
+      loop = owlCarousel.data('loop'),
+      items = owlCarousel.data('items'),
+      margin = owlCarousel.data('margin'),
+      stagePadding = owlCarousel.data('stage-padding'),
+      autoplay = owlCarousel.data('autoplay'),
+      autoplayTimeout = owlCarousel.data('autoplay-timeout'),
+      smartSpeed = owlCarousel.data('smart-speed'),
+      dots = owlCarousel.data('dots'),
+      nav = owlCarousel.data('nav'),
+      navSpeed = owlCarousel.data('nav-speed'),
+      xsDevice = owlCarousel.data('mobile-device'),
+      xsDeviceNav = owlCarousel.data('mobile-device-nav'),
+      xsDeviceDots = owlCarousel.data('mobile-device-dots'),
+      smDevice = owlCarousel.data('ipad-device'),
+      smDeviceNav = owlCarousel.data('ipad-device-nav'),
+      smDeviceDots = owlCarousel.data('ipad-device-dots'),
+      smDevice2 = owlCarousel.data('ipad-device2'),
+      smDeviceNav2 = owlCarousel.data('ipad-device-nav2'),
+      smDeviceDots2 = owlCarousel.data('ipad-device-dots2'),
+      mdDevice = owlCarousel.data('md-device'),
+      centerMode = owlCarousel.data('center-mode'),
+      mdDeviceNav = owlCarousel.data('md-device-nav'),
+      mdDeviceDots = owlCarousel.data('md-device-dots');
+      owlCarousel.owlCarousel({
+          loop: (loop ? true : false),
+          items: (items ? items : 3),
+          lazyLoad: true,
+          center: (centerMode ? true : false),
+          margin: (margin ? margin : 0),
+          //stagePadding: (stagePadding ? stagePadding : 0),
+          autoplay: (autoplay ? true : false),
+          autoplayTimeout: (autoplayTimeout ? autoplayTimeout : 1000),
+          smartSpeed: (smartSpeed ? smartSpeed : 250),
+          dots: (dots ? true : false),
+          nav: (nav ? true : false),
+          navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+          navSpeed: (navSpeed ? true : false),
+          responsiveClass: true,
+          responsive: {
+              0: {
+                  items: (xsDevice ? xsDevice : 1),
+                  nav: (xsDeviceNav ? true : false),
+                  dots: (xsDeviceDots ? true : false),
+                  center: false,
+              },
+              576: {
+                  items: (smDevice2 ? smDevice2 : 2),
+                  nav: (smDeviceNav2 ? true : false),
+                  dots: (smDeviceDots2 ? true : false),
+                  center: false,
+              },
+              768: {
+                  items: (smDevice ? smDevice : 3),
+                  nav: (smDeviceNav ? true : false),
+                  dots: (smDeviceDots ? true : false),
+                  center: false,
+              },
+              992: {
+                  items: (mdDevice ? mdDevice : 4),
+                  nav: (mdDeviceNav ? true : false),
+                  dots: (mdDeviceDots ? true : false)
+              }
+          }
+      });
+  });
+     
+    
 });
 
