@@ -1355,6 +1355,22 @@ img.eye-icon {
   color: #fff;
 }
 
+.main-header1-background {
+  background-image: url("../images/header1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
+.main-header2-background {
+  background-image: url("../images/header2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+
 .sub-note {
   color: #1D66C1;
 }
@@ -1983,4 +1999,18 @@ table.table {
 .btn-modify {
   width: 270px;
   height: 60px;
+}
+.main-card {
+  background-color: #fff;
+  padding: 30px;
+  margin-bottom: 20px;
+}
+.main-header-item {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: normal;
+  color: #FFFFFF;
+  opacity: 0.5;
+  padding-bottom: 20px;
+  border-bottom: 4px solid #A0A0A0;
 }
