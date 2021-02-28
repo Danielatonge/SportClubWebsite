@@ -2153,15 +2153,14 @@ ol.breadcrumb li {
 }
 
 /* Carousel Navigation */
-.owl-carousel .nav-btn{
+.slider-one.owl-carousel .nav-btn{
   height: 47px;
   position: absolute;
   width: 26px;
   cursor: pointer;
   top: 175px !important;
 }
-
-.owl-carousel .prev-slide{
+.slider-one.owl-carousel .prev-slide{
   background-image: url(../images/left-arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
@@ -2169,7 +2168,7 @@ ol.breadcrumb li {
   color: #F0F0F0;
   left: 8px;
 }
-.owl-carousel .next-slide{
+.slider-one.owl-carousel .next-slide{
   background-image: url(../images/right-arrow.svg);
   background-position: center;
   background-repeat: no-repeat;
