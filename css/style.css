@@ -2155,3 +2155,28 @@ ol.breadcrumb li {
   padding-bottom: 20px;
   border-bottom: 4px solid #A0A0A0;
 }
+
+/* Carousel Navigation */
+.owl-carousel .nav-btn{
+  height: 47px;
+  position: absolute;
+  width: 26px;
+  cursor: pointer;
+  top: 175px !important;
+}
+
+.owl-carousel .prev-slide{
+  background-image: url(../images/left-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #F0F0F0;
+  left: 8px;
+}
+.owl-carousel .next-slide{
+  background-image: url(../images/right-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 8px;
+}
