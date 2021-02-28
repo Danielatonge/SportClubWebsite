@@ -2087,7 +2087,7 @@ ol.breadcrumb li {
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
-  font-size: 1.375rem;
+  font-size: 1.25rem;
   line-height: 1.625rem;
 
   margin-bottom: 0;
@@ -2098,16 +2098,19 @@ ol.breadcrumb li {
 .sbornyie-card-score {
   position: relative;
 
+	background: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
   font-family: Roboto;
   font-style: normal;
   font-weight: 900;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.438rem;
   text-align: center;
+  position: relative;
 
   margin-bottom: 0;
-
-  color: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
 }
 
 .sbornyie-card-time {
@@ -2127,15 +2130,16 @@ ol.breadcrumb li {
 .sbornyie-card-date {
   position: relative;
 
-  font-family: Roboto;
+	background: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-family: Roboto;
   font-style: normal;
   font-weight: bold;
   font-size: 1rem;
   line-height: 1.188rem;
 
   margin-bottom: 0;
-
-  color: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
 }
 .main-card {
   background-color: #fff;
