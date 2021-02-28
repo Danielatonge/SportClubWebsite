@@ -14,6 +14,7 @@ $(document).ready(function() {
   /*-------------------------------------
     OwlCarousel
     -------------------------------------*/
+    
     $('.rs-carousel').each(function() {
       var owlCarousel = $(this),
       loop = owlCarousel.data('loop'),
@@ -51,7 +52,7 @@ $(document).ready(function() {
           smartSpeed: (smartSpeed ? smartSpeed : 250),
           dots: (dots ? true : false),
           nav: (nav ? true : false),
-          navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+          navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
           navSpeed: (navSpeed ? true : false),
           responsiveClass: true,
           responsive: {
@@ -81,7 +82,11 @@ $(document).ready(function() {
           }
       });
   });
-     
+    
+  $('.owl-carousel').find('.owl-nav').removeClass('disabled');
+  $('.owl-carousel').on('changed.owl.carousel', function(event) {
+    $(this).find('.owl-nav').removeClass('disabled');
+  });
     
 });
 
