@@ -42,9 +42,9 @@ $(document).ready(function() {
       mdDeviceDots = owlCarousel.data('md-device-dots');
       owlCarousel.owlCarousel({
           loop: (loop ? true : false),
-          items: (items ? items : 3),
+          // items: (items ? items : 3),
           lazyLoad: true,
-          center: (centerMode ? true : false),
+          center: true,
           margin: (margin ? margin : 0),
           //stagePadding: (stagePadding ? stagePadding : 0),
           autoplay: (autoplay ? true : false),
@@ -52,7 +52,7 @@ $(document).ready(function() {
           smartSpeed: (smartSpeed ? smartSpeed : 250),
           dots: (dots ? true : false),
           nav: (nav ? true : false),
-          navText: ["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+          navText: ["<div class='btn btn-secondary'><i class='fas fa-arrow-left'></i></div>","<div class='btn btn-secondary'><i class='fas fa-arrow-right'></i></div>"],
           navSpeed: (navSpeed ? true : false),
           responsiveClass: true,
           responsive: {
@@ -60,32 +60,41 @@ $(document).ready(function() {
                   items: (xsDevice ? xsDevice : 1),
                   nav: (xsDeviceNav ? true : false),
                   dots: (xsDeviceDots ? true : false),
-                  center: false,
+                  center: true,
               },
               576: {
                   items: (smDevice2 ? smDevice2 : 2),
                   nav: (smDeviceNav2 ? true : false),
                   dots: (smDeviceDots2 ? true : false),
-                  center: false,
+                  center: true,
               },
               768: {
                   items: (smDevice ? smDevice : 3),
                   nav: (smDeviceNav ? true : false),
                   dots: (smDeviceDots ? true : false),
-                  center: false,
+                  center: true,
               },
               992: {
-                  items: (mdDevice ? mdDevice : 4),
+                  items: (mdDevice ? mdDevice : 3),
                   nav: (mdDeviceNav ? true : false),
-                  dots: (mdDeviceDots ? true : false)
+                  dots: (mdDeviceDots ? true : false),
+                  center: true,
               }
           }
       });
   });
     
-  $('.owl-carousel').find('.owl-nav').removeClass('disabled');
-  $('.owl-carousel').on('changed.owl.carousel', function(event) {
-    $(this).find('.owl-nav').removeClass('disabled');
+  // $('.owl-carousel').find('.owl-nav').removeClass('disabled');
+  // $('.owl-carousel').on('changed.owl.carousel', function(event) {
+  //   $(this).find('.owl-nav').removeClass('disabled');
+  // });
+
+  /*-------------------------------------
+    Lightbox
+    -------------------------------------*/
+  $(document).on('click', '[data-toggle="lightbox"]', function(event) {
+    event.preventDefault();
+    $(this).ekkoLightbox();
   });
     
 });
