@@ -1495,88 +1495,8 @@ table.table {
 .rs-team.style1 .player-item .player-img img {
   border-radius: 4px 4px 6px 6px;
 }
-.rs-team.style1 .player-item .person-details {
-  padding: 20px 25px;
-  position: absolute;
-  content: '';
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  transition: all 0.3s ease 0s;
-  min-height: 80px;
-}
-.rs-team.style1 .player-item .person-details .player-title {
-  font-size: 15px;
-  text-align: left;
-  overflow: hidden;
-  text-transform: uppercase;
-  margin: 0 0 10px;
-  padding-bottom: 2px;
-  transition: .4s;
-  margin-bottom: 0;
-  position: relative;
-  z-index: 9;
-}
-.rs-team.style1 .player-item .person-details .player-title .squad-numbers {
-  font-size: 55px;
-  line-height: 60px;
-  color: #fbc02d;
-  float: left;
-  padding-right: 16px;
-}
-.rs-team.style1 .player-item .person-details .player-title a {
-  padding-top: 4px;
-  display: inline-block;
-  font-size: 22px;
-  font-weight: 600;
-  padding-bottom: 5px;
-  color: #111111;
-}
-.rs-team.style1 .player-item .person-details .player-title a:hover {
-  color: #fbc02d;
-}
-.rs-team.style1 .player-item .person-details .player-title .player-position {
-  display: block;
-  font-size: 15px;
-  font-weight: 400;
-  line-height: 17px;
-  color: #555555;
-  text-transform: capitalize;
-}
-.rs-team.style1 .player-item .person-details:after {
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background: #eff4fd;
-  color: #fff;
-  opacity: 1;
-  top: 0;
-  left: 0;
-  z-index: 0;
-  border-radius: 0 0 4px 4px;
-}
 .rs-team.style1.modify-style .player-item .player-img img {
   border-radius: 4px 4px 6px 6px;
-}
-.rs-team.style1.modify-style .player-item .person-details .player-title {
-  color: #ffffff;
-}
-.rs-team.style1.modify-style .player-item .person-details .player-title .squad-numbers {
-  color: #fbc02d;
-}
-.rs-team.style1.modify-style .player-item .person-details .player-title a {
-  color: #ffffff;
-}
-.rs-team.style1.modify-style .player-item .person-details .player-title a:hover {
-  color: #ffffff;
-}
-.rs-team.style1.modify-style .player-item .person-details .player-title .player-position {
-  color: #ffffff;
-}
-.rs-team.style1.modify-style .player-item .person-details:after {
-  position: unset;
-  content: unset;
 }
 .rs-team.style1.modify-style .player-item:after {
   position: absolute;
@@ -1588,6 +1508,14 @@ table.table {
   display: block;
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.85) 30%, rgba(255, 255, 255, 0) 70%);
 }
+
+.owl-nav {
+  margin-top: 10px;
+}
+.owl-nav > button {
+  margin-right: 10px;
+}
+
 .rs-team.style1.modify-style .owl-controls .owl-nav {
   position: absolute;
   content: '';
@@ -2162,20 +2090,5 @@ ol.breadcrumb li {
   position: absolute;
   width: 26px;
   cursor: pointer;
-  top: 175px !important;
-}
-.slider-one.owl-carousel .prev-slide{
-  background-image: url(../images/left-arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: #F0F0F0;
-  left: 8px;
-}
-.slider-one.owl-carousel .next-slide{
-  background-image: url(../images/right-arrow.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  right: 8px;
+  top: 275px !important;
 }
