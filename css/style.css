@@ -2180,3 +2180,66 @@ ol.breadcrumb li {
   background-size: cover;
   right: 8px;
 }
+
+.section-football {
+  background-image: url("../images/Group 189.svg");
+  background-position:center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  border-radius: 5px;
+}
+
+.section-volleyball {
+  background-image: url("../images/Group 452.svg");
+  background-position:center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  border-radius: 5px;
+}
+
+.match-history-team-name {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.25rem;
+
+  align-items: center;
+
+  color: #000000;
+}
+
+.match-history-score {
+  position: relative;
+
+	background: linear-gradient(to right, #1488CC 0%, #2B32B2 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  text-align: center;
+  position: relative;
+
+  padding: 0;
+}
+
+.match-history-date {
+  position: relative;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+
+  padding: 0;
+  align-items: center;
+
+  color: #A0A0A0;
+}
