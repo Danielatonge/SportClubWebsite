@@ -2198,6 +2198,16 @@ ol.breadcrumb li {
 
 /* New Styles */
 
+/* Colors */
+:root {
+  --dark-blue: #032f5e;
+  --light-blue: #1d66c1;
+  --shiny-light-blue: #1488cc;
+  --shiny-dark-blue: #2b32b2;
+  --black: #000000;
+  --dark-gray: #a0a0a0;
+}
+
 .main-header1-background {
   width: 100%;
   height: 100%;
@@ -2207,12 +2217,73 @@ ol.breadcrumb li {
   margin-top: 25%;
 }
 
-.teamName {
-  color: black;
+#carouselExampleIndicators .carousel-indicators {
+  bottom: -4rem;
 }
 
-.teamName img {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
+.banner-card .card-header {
+  background-color: #f0f0f0;
+}
+
+.banner-card .card-header .card-title {
+  font-size: 1rem;
+  color: var(--dark-blue);
+  line-height: 1.5rem;
+}
+
+.banner-card .card-body .card-subtitle {
+  font-size: 0.7rem;
+  line-height: 1rem;
+  color: var(--light-blue);
+}
+
+.banner-card .card-body .card-text {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--black);
+}
+
+.banner-card .card-body .card-text {
+  font-size: 0.8rem;
+  line-height: 1rem;
+  color: var(--black);
+}
+
+.banner-card .card-body .team-data img {
+  width: 64px;
+  height: 64px;
+}
+
+.banner-card .card-body .team-data .play-time h6 {
+  font-size: 0.7rem;
+  line-height: 0.8rem;
+  color: var(--dark-gray);
+}
+
+.banner-card .card-body .team-data .play-time span {
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 2.5rem;
+  /* Fallback: Set a background color. */
+  /* background-color: red; */
+
+  /* Create the gradient. */
+  background-image: linear-gradient(
+    to right,
+    var(--shiny-light-blue),
+    var(--shiny-dark-blue)
+  );
+
+  background-clip: text;
+  fill: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.banner-card .card-body .team-names h6 {
+  font-size: 1rem;
+  line-height: 1.1rem;
+  color: var(--dark-blue);
 }
