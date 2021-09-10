@@ -2204,6 +2204,7 @@ ol.breadcrumb li {
   --light-blue: #1d66c1;
   --shiny-light-blue: #1488cc;
   --shiny-dark-blue: #2b32b2;
+  --blue-variant: #4c5cb0;
   --black: #000000;
   --dark-gray: #a0a0a0;
 }
@@ -2217,57 +2218,57 @@ ol.breadcrumb li {
   margin-top: 25%;
 }
 
-#carouselExampleIndicators .carousel-indicators {
+/* .match-carousel #carouselExampleIndicators .carousel-indicators {
   bottom: -4rem;
+} */
+
+.match-carousel #carouselExampleIndicators .carousel-indicators .active {
+  background-color: var(--blue-variant);
 }
 
-.banner-card .card-header {
+.match-carousel .banner-card .card-header {
   background-color: #f0f0f0;
 }
 
-.banner-card .card-header .card-title {
+.match-carousel .banner-card .card-header .card-title {
   font-size: 1rem;
   color: var(--dark-blue);
   line-height: 1.5rem;
 }
 
-.banner-card .card-body .card-subtitle {
+.match-carousel .banner-card .card-body .card-subtitle {
   font-size: 0.7rem;
   line-height: 1rem;
   color: var(--light-blue);
 }
 
-.banner-card .card-body .card-text {
+.match-carousel .banner-card .card-body .card-text {
   font-size: 0.8rem;
   line-height: 1rem;
   color: var(--black);
 }
 
-.banner-card .card-body .card-text {
+.match-carousel .banner-card .card-body .card-text {
   font-size: 0.8rem;
   line-height: 1rem;
   color: var(--black);
 }
 
-.banner-card .card-body .team-data img {
+.match-carousel .banner-card .card-body .team-data img {
   width: 64px;
   height: 64px;
 }
 
-.banner-card .card-body .team-data .play-time h6 {
+.match-carousel .banner-card .card-body .team-data .play-time h6 {
   font-size: 0.7rem;
   line-height: 0.8rem;
   color: var(--dark-gray);
 }
 
-.banner-card .card-body .team-data .play-time span {
+.match-carousel .banner-card .card-body .team-data .play-time span {
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 2.5rem;
-  /* Fallback: Set a background color. */
-  /* background-color: red; */
-
-  /* Create the gradient. */
   background-image: linear-gradient(
     to right,
     var(--shiny-light-blue),
@@ -2282,8 +2283,98 @@ ol.breadcrumb li {
   -moz-text-fill-color: transparent;
 }
 
-.banner-card .card-body .team-names h6 {
+.match-carousel .banner-card .card-body .team-names h6 {
   font-size: 1rem;
   line-height: 1.1rem;
   color: var(--dark-blue);
+}
+
+@media (max-width: 320px) {
+  .match-carousel .banner-card .card-body .team-data img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .match-carousel .banner-card .card-body .team-data .play-time h6 {
+    font-size: 0.6rem;
+    line-height: 0.7rem;
+  }
+
+  .match-carousel .banner-card .card-body .team-data .play-time span {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .match-carousel .banner-card .card-body .team-names {
+    margin-top: 0 !important;
+  }
+
+  .match-carousel .banner-card .card-body .team-names h6 {
+    font-size: 0.9rem;
+    line-height: 1rem;
+  }
+}
+
+.match-carousel #carouselExampleIndicators .carousel-controls .carousel-btns a {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 1.4rem 2rem;
+  border-radius: 5px;
+}
+
+/* .match-carousel #carouselExampleIndicators .carousel-btns a:hover,
+.match-carousel #carouselExampleIndicators .carousel-btns a:active {
+  color: var(--blue-variant);
+} */
+
+/* .match-carousel #carouselExampleIndicators .carousel-btns a {
+} */
+
+.match-carousel
+  #carouselExampleIndicators
+  .carousel-controls
+  .carousel-btns
+  a:hover,
+.match-carousel
+  #carouselExampleIndicators
+  .carousel-controls
+  .carousel-btns
+  a:active {
+  color: var(--blue-variant);
+  font-size: large;
+}
+
+.match-carousel
+  #carouselExampleIndicators
+  .carousel-controls
+  .carousel-indicators {
+  position: relative;
+  margin: auto;
+  bottom: 0;
+}
+
+.match-carousel
+  #carouselExampleIndicators
+  .carousel-controls
+  .carousel-indicators
+  li {
+  width: 2.5rem;
+}
+
+.match-carousel
+  #carouselExampleIndicators
+  .carousel-controls
+  .clickable-btn
+  .btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+}
+
+@media (max-width: 768px) {
+  .match-carousel #carouselExampleIndicators .carousel-btns a,
+  .match-carousel #carouselExampleIndicators .clickable-btn .btn {
+    display: none;
+  }
 }
