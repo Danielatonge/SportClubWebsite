@@ -23,6 +23,7 @@ $(document).ready(function () {
     nextButton: ".next",
     autoplay: true,
     navPosition: "bottom",
+    mouseDrag: true,
   });
 
   $(".card-shadow").hover(
