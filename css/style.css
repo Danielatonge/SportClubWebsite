@@ -2291,25 +2291,45 @@ ol.breadcrumb li {
 }
 
 .tns-nav {
-  margin-bottom: -4rem;
-  margin-top: 2.5rem;
   text-align: center;
-}
-
-@media (max-width: 768px) {
-  .tns-nav {
-    margin-bottom: -3.5rem;
-  }
+  margin-top: 2.5rem;
 }
 
 .tns-nav button {
   width: 2.5rem;
+  border: none;
+  margin-right: 2px;
 }
 
 .tns-nav-active {
   background-color: var(--blue-variant);
+}
+
+.carousel-controls {
+  margin-top: -2.5rem;
+}
+
+.carousel-controls .carousel-btns a {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.carousel-controls .carousel-btns a:hover,
+.carousel-controls .carousel-btns a:active {
   color: var(--blue-variant);
 }
+
+.carousel-controls .clickable-btn .btn {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  padding: 0.8rem 1.2rem;
+  font-size: 0.9rem;
+}
+
+/* MEDIA QUERIES */
 
 @media (max-width: 992px) {
   .my-slider .banner-card .card-body .team-data img {
@@ -2337,30 +2357,13 @@ ol.breadcrumb li {
   }
 }
 
-.carousel-controls .carousel-btns a {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
-  padding: 1rem 1.5rem;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.carousel-controls .carousel-btns a:hover,
-.carousel-controls .carousel-btns a:active {
-  color: var(--blue-variant);
-}
-
-.carousel-controls .clickable-btn .btn {
-  background-color: rgba(255, 255, 255, 0.2);
-  color: white;
-  padding: 1rem 1.5rem;
-  font-size: 1rem;
-}
-
 @media (max-width: 768px) {
+  .carousel-controls {
+    margin-top: -2rem;
+  }
+
   .carousel-controls .carousel-btns a,
   .carousel-controls .clickable-btn .btn {
-    padding: 0.8rem 1.2rem;
     font-size: 0.8rem;
   }
 }
